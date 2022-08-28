@@ -1,4 +1,4 @@
-package pl.com.dpd.dpdservices.man.services;
+package pl.com.dpd.dpdservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
