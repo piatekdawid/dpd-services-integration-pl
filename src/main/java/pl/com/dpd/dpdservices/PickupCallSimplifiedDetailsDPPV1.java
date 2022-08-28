@@ -1,13 +1,13 @@
 /**
  * PickupCallSimplifiedDetailsDPPV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
+public class PickupCallSimplifiedDetailsDPPV1 implements java.io.Serializable {
     private pl.com.dpd.dpdservices.PickupPackagesParamsDPPV1 packagesParams;
 
     private pl.com.dpd.dpdservices.PickupCustomerDPPV1 pickupCustomer;
@@ -20,20 +20,20 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
     }
 
     public PickupCallSimplifiedDetailsDPPV1(
-           pl.com.dpd.dpdservices.PickupPackagesParamsDPPV1 packagesParams,
-           pl.com.dpd.dpdservices.PickupCustomerDPPV1 pickupCustomer,
-           pl.com.dpd.dpdservices.PickupPayerDPPV1 pickupPayer,
-           pl.com.dpd.dpdservices.PickupSenderDPPV1 pickupSender) {
-           this.packagesParams = packagesParams;
-           this.pickupCustomer = pickupCustomer;
-           this.pickupPayer = pickupPayer;
-           this.pickupSender = pickupSender;
+            pl.com.dpd.dpdservices.PickupPackagesParamsDPPV1 packagesParams,
+            pl.com.dpd.dpdservices.PickupCustomerDPPV1 pickupCustomer,
+            pl.com.dpd.dpdservices.PickupPayerDPPV1 pickupPayer,
+            pl.com.dpd.dpdservices.PickupSenderDPPV1 pickupSender) {
+        this.packagesParams = packagesParams;
+        this.pickupCustomer = pickupCustomer;
+        this.pickupPayer = pickupPayer;
+        this.pickupSender = pickupSender;
     }
 
 
     /**
      * Gets the packagesParams value for this PickupCallSimplifiedDetailsDPPV1.
-     * 
+     *
      * @return packagesParams
      */
     public pl.com.dpd.dpdservices.PickupPackagesParamsDPPV1 getPackagesParams() {
@@ -43,7 +43,7 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the packagesParams value for this PickupCallSimplifiedDetailsDPPV1.
-     * 
+     *
      * @param packagesParams
      */
     public void setPackagesParams(pl.com.dpd.dpdservices.PickupPackagesParamsDPPV1 packagesParams) {
@@ -53,7 +53,7 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the pickupCustomer value for this PickupCallSimplifiedDetailsDPPV1.
-     * 
+     *
      * @return pickupCustomer
      */
     public pl.com.dpd.dpdservices.PickupCustomerDPPV1 getPickupCustomer() {
@@ -63,7 +63,7 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the pickupCustomer value for this PickupCallSimplifiedDetailsDPPV1.
-     * 
+     *
      * @param pickupCustomer
      */
     public void setPickupCustomer(pl.com.dpd.dpdservices.PickupCustomerDPPV1 pickupCustomer) {
@@ -73,7 +73,7 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the pickupPayer value for this PickupCallSimplifiedDetailsDPPV1.
-     * 
+     *
      * @return pickupPayer
      */
     public pl.com.dpd.dpdservices.PickupPayerDPPV1 getPickupPayer() {
@@ -83,7 +83,7 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the pickupPayer value for this PickupCallSimplifiedDetailsDPPV1.
-     * 
+     *
      * @param pickupPayer
      */
     public void setPickupPayer(pl.com.dpd.dpdservices.PickupPayerDPPV1 pickupPayer) {
@@ -93,7 +93,7 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the pickupSender value for this PickupCallSimplifiedDetailsDPPV1.
-     * 
+     *
      * @return pickupSender
      */
     public pl.com.dpd.dpdservices.PickupSenderDPPV1 getPickupSender() {
@@ -103,7 +103,7 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the pickupSender value for this PickupCallSimplifiedDetailsDPPV1.
-     * 
+     *
      * @param pickupSender
      */
     public void setPickupSender(pl.com.dpd.dpdservices.PickupSenderDPPV1 pickupSender) {
@@ -111,6 +111,7 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof PickupCallSimplifiedDetailsDPPV1)) return false;
         PickupCallSimplifiedDetailsDPPV1 other = (PickupCallSimplifiedDetailsDPPV1) obj;
@@ -121,24 +122,25 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.packagesParams==null && other.getPackagesParams()==null) || 
-             (this.packagesParams!=null &&
-              this.packagesParams.equals(other.getPackagesParams()))) &&
-            ((this.pickupCustomer==null && other.getPickupCustomer()==null) || 
-             (this.pickupCustomer!=null &&
-              this.pickupCustomer.equals(other.getPickupCustomer()))) &&
-            ((this.pickupPayer==null && other.getPickupPayer()==null) || 
-             (this.pickupPayer!=null &&
-              this.pickupPayer.equals(other.getPickupPayer()))) &&
-            ((this.pickupSender==null && other.getPickupSender()==null) || 
-             (this.pickupSender!=null &&
-              this.pickupSender.equals(other.getPickupSender())));
+        _equals = true &&
+                ((this.packagesParams == null && other.getPackagesParams() == null) ||
+                        (this.packagesParams != null &&
+                                this.packagesParams.equals(other.getPackagesParams()))) &&
+                ((this.pickupCustomer == null && other.getPickupCustomer() == null) ||
+                        (this.pickupCustomer != null &&
+                                this.pickupCustomer.equals(other.getPickupCustomer()))) &&
+                ((this.pickupPayer == null && other.getPickupPayer() == null) ||
+                        (this.pickupPayer != null &&
+                                this.pickupPayer.equals(other.getPickupPayer()))) &&
+                ((this.pickupSender == null && other.getPickupSender() == null) ||
+                        (this.pickupSender != null &&
+                                this.pickupSender.equals(other.getPickupSender())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -163,7 +165,7 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(PickupCallSimplifiedDetailsDPPV1.class, true);
+            new org.apache.axis.description.TypeDesc(PickupCallSimplifiedDetailsDPPV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "pickupCallSimplifiedDetailsDPPV1"));
@@ -208,24 +210,24 @@ public class PickupCallSimplifiedDetailsDPPV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

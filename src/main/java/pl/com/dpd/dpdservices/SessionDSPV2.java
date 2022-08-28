@@ -1,13 +1,13 @@
 /**
  * SessionDSPV2.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class SessionDSPV2  implements java.io.Serializable {
+public class SessionDSPV2 implements java.io.Serializable {
     private pl.com.dpd.dpdservices.PackageDSPV2[] packages;
 
     private java.lang.Long sessionId;
@@ -16,16 +16,16 @@ public class SessionDSPV2  implements java.io.Serializable {
     }
 
     public SessionDSPV2(
-           pl.com.dpd.dpdservices.PackageDSPV2[] packages,
-           java.lang.Long sessionId) {
-           this.packages = packages;
-           this.sessionId = sessionId;
+            pl.com.dpd.dpdservices.PackageDSPV2[] packages,
+            java.lang.Long sessionId) {
+        this.packages = packages;
+        this.sessionId = sessionId;
     }
 
 
     /**
      * Gets the packages value for this SessionDSPV2.
-     * 
+     *
      * @return packages
      */
     public pl.com.dpd.dpdservices.PackageDSPV2[] getPackages() {
@@ -35,7 +35,7 @@ public class SessionDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the packages value for this SessionDSPV2.
-     * 
+     *
      * @param packages
      */
     public void setPackages(pl.com.dpd.dpdservices.PackageDSPV2[] packages) {
@@ -45,7 +45,7 @@ public class SessionDSPV2  implements java.io.Serializable {
 
     /**
      * Gets the sessionId value for this SessionDSPV2.
-     * 
+     *
      * @return sessionId
      */
     public java.lang.Long getSessionId() {
@@ -55,7 +55,7 @@ public class SessionDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the sessionId value for this SessionDSPV2.
-     * 
+     *
      * @param sessionId
      */
     public void setSessionId(java.lang.Long sessionId) {
@@ -63,6 +63,7 @@ public class SessionDSPV2  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof SessionDSPV2)) return false;
         SessionDSPV2 other = (SessionDSPV2) obj;
@@ -73,18 +74,19 @@ public class SessionDSPV2  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.packages==null && other.getPackages()==null) || 
-             (this.packages!=null &&
-              java.util.Arrays.equals(this.packages, other.getPackages()))) &&
-            ((this.sessionId==null && other.getSessionId()==null) || 
-             (this.sessionId!=null &&
-              this.sessionId.equals(other.getSessionId())));
+        _equals = true &&
+                ((this.packages == null && other.getPackages() == null) ||
+                        (this.packages != null &&
+                                java.util.Arrays.equals(this.packages, other.getPackages()))) &&
+                ((this.sessionId == null && other.getSessionId() == null) ||
+                        (this.sessionId != null &&
+                                this.sessionId.equals(other.getSessionId())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -92,12 +94,12 @@ public class SessionDSPV2  implements java.io.Serializable {
         __hashCodeCalc = true;
         int _hashCode = 1;
         if (getPackages() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getPackages());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getPackages());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getPackages(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
@@ -111,7 +113,7 @@ public class SessionDSPV2  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(SessionDSPV2.class, true);
+            new org.apache.axis.description.TypeDesc(SessionDSPV2.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "sessionDSPV2"));
@@ -143,24 +145,24 @@ public class SessionDSPV2  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

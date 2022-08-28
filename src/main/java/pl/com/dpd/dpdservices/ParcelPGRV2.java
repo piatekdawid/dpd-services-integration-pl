@@ -1,13 +1,13 @@
 /**
  * ParcelPGRV2.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class ParcelPGRV2  implements java.io.Serializable {
+public class ParcelPGRV2 implements java.io.Serializable {
     private java.lang.String status;
 
     private java.lang.Long parcelId;
@@ -22,22 +22,22 @@ public class ParcelPGRV2  implements java.io.Serializable {
     }
 
     public ParcelPGRV2(
-           java.lang.String status,
-           java.lang.Long parcelId,
-           java.lang.String reference,
-           java.lang.String waybill,
-           pl.com.dpd.dpdservices.ValidationInfoPGRV2[] validationDetails) {
-           this.status = status;
-           this.parcelId = parcelId;
-           this.reference = reference;
-           this.waybill = waybill;
-           this.validationDetails = validationDetails;
+            java.lang.String status,
+            java.lang.Long parcelId,
+            java.lang.String reference,
+            java.lang.String waybill,
+            pl.com.dpd.dpdservices.ValidationInfoPGRV2[] validationDetails) {
+        this.status = status;
+        this.parcelId = parcelId;
+        this.reference = reference;
+        this.waybill = waybill;
+        this.validationDetails = validationDetails;
     }
 
 
     /**
      * Gets the status value for this ParcelPGRV2.
-     * 
+     *
      * @return status
      */
     public java.lang.String getStatus() {
@@ -47,7 +47,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     /**
      * Sets the status value for this ParcelPGRV2.
-     * 
+     *
      * @param status
      */
     public void setStatus(java.lang.String status) {
@@ -57,7 +57,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     /**
      * Gets the parcelId value for this ParcelPGRV2.
-     * 
+     *
      * @return parcelId
      */
     public java.lang.Long getParcelId() {
@@ -67,7 +67,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     /**
      * Sets the parcelId value for this ParcelPGRV2.
-     * 
+     *
      * @param parcelId
      */
     public void setParcelId(java.lang.Long parcelId) {
@@ -77,7 +77,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     /**
      * Gets the reference value for this ParcelPGRV2.
-     * 
+     *
      * @return reference
      */
     public java.lang.String getReference() {
@@ -87,7 +87,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     /**
      * Sets the reference value for this ParcelPGRV2.
-     * 
+     *
      * @param reference
      */
     public void setReference(java.lang.String reference) {
@@ -97,7 +97,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     /**
      * Gets the waybill value for this ParcelPGRV2.
-     * 
+     *
      * @return waybill
      */
     public java.lang.String getWaybill() {
@@ -107,7 +107,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     /**
      * Sets the waybill value for this ParcelPGRV2.
-     * 
+     *
      * @param waybill
      */
     public void setWaybill(java.lang.String waybill) {
@@ -117,7 +117,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     /**
      * Gets the validationDetails value for this ParcelPGRV2.
-     * 
+     *
      * @return validationDetails
      */
     public pl.com.dpd.dpdservices.ValidationInfoPGRV2[] getValidationDetails() {
@@ -127,7 +127,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     /**
      * Sets the validationDetails value for this ParcelPGRV2.
-     * 
+     *
      * @param validationDetails
      */
     public void setValidationDetails(pl.com.dpd.dpdservices.ValidationInfoPGRV2[] validationDetails) {
@@ -135,6 +135,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof ParcelPGRV2)) return false;
         ParcelPGRV2 other = (ParcelPGRV2) obj;
@@ -145,27 +146,28 @@ public class ParcelPGRV2  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.status==null && other.getStatus()==null) || 
-             (this.status!=null &&
-              this.status.equals(other.getStatus()))) &&
-            ((this.parcelId==null && other.getParcelId()==null) || 
-             (this.parcelId!=null &&
-              this.parcelId.equals(other.getParcelId()))) &&
-            ((this.reference==null && other.getReference()==null) || 
-             (this.reference!=null &&
-              this.reference.equals(other.getReference()))) &&
-            ((this.waybill==null && other.getWaybill()==null) || 
-             (this.waybill!=null &&
-              this.waybill.equals(other.getWaybill()))) &&
-            ((this.validationDetails==null && other.getValidationDetails()==null) || 
-             (this.validationDetails!=null &&
-              java.util.Arrays.equals(this.validationDetails, other.getValidationDetails())));
+        _equals = true &&
+                ((this.status == null && other.getStatus() == null) ||
+                        (this.status != null &&
+                                this.status.equals(other.getStatus()))) &&
+                ((this.parcelId == null && other.getParcelId() == null) ||
+                        (this.parcelId != null &&
+                                this.parcelId.equals(other.getParcelId()))) &&
+                ((this.reference == null && other.getReference() == null) ||
+                        (this.reference != null &&
+                                this.reference.equals(other.getReference()))) &&
+                ((this.waybill == null && other.getWaybill() == null) ||
+                        (this.waybill != null &&
+                                this.waybill.equals(other.getWaybill()))) &&
+                ((this.validationDetails == null && other.getValidationDetails() == null) ||
+                        (this.validationDetails != null &&
+                                java.util.Arrays.equals(this.validationDetails, other.getValidationDetails())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -185,12 +187,12 @@ public class ParcelPGRV2  implements java.io.Serializable {
             _hashCode += getWaybill().hashCode();
         }
         if (getValidationDetails() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getValidationDetails());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getValidationDetails());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getValidationDetails(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
@@ -201,7 +203,7 @@ public class ParcelPGRV2  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(ParcelPGRV2.class, true);
+            new org.apache.axis.description.TypeDesc(ParcelPGRV2.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "parcelPGRV2"));
@@ -254,24 +256,24 @@ public class ParcelPGRV2  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

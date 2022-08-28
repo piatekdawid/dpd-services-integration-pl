@@ -1,13 +1,13 @@
 /**
  * DPDServiceException.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
-package pl.com.dpd.dpdservices;
+package pl.com.dpd.dpdservices.exception;
 
-public class DPDServiceException  extends org.apache.axis.AxisFault  implements java.io.Serializable {
+public class DPDServiceException extends org.apache.axis.AxisFault implements java.io.Serializable {
     private java.util.Calendar exceptionDate;
 
     private java.lang.String message1;
@@ -16,8 +16,8 @@ public class DPDServiceException  extends org.apache.axis.AxisFault  implements 
     }
 
     public DPDServiceException(
-           java.util.Calendar exceptionDate,
-           java.lang.String message1) {
+            java.util.Calendar exceptionDate,
+            java.lang.String message1) {
         this.exceptionDate = exceptionDate;
         this.message1 = message1;
     }
@@ -25,7 +25,7 @@ public class DPDServiceException  extends org.apache.axis.AxisFault  implements 
 
     /**
      * Gets the exceptionDate value for this DPDServiceException.
-     * 
+     *
      * @return exceptionDate
      */
     public java.util.Calendar getExceptionDate() {
@@ -35,7 +35,7 @@ public class DPDServiceException  extends org.apache.axis.AxisFault  implements 
 
     /**
      * Sets the exceptionDate value for this DPDServiceException.
-     * 
+     *
      * @param exceptionDate
      */
     public void setExceptionDate(java.util.Calendar exceptionDate) {
@@ -45,7 +45,7 @@ public class DPDServiceException  extends org.apache.axis.AxisFault  implements 
 
     /**
      * Gets the message1 value for this DPDServiceException.
-     * 
+     *
      * @return message1
      */
     public java.lang.String getMessage1() {
@@ -55,7 +55,7 @@ public class DPDServiceException  extends org.apache.axis.AxisFault  implements 
 
     /**
      * Sets the message1 value for this DPDServiceException.
-     * 
+     *
      * @param message1
      */
     public void setMessage1(java.lang.String message1) {
@@ -63,6 +63,7 @@ public class DPDServiceException  extends org.apache.axis.AxisFault  implements 
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof DPDServiceException)) return false;
         DPDServiceException other = (DPDServiceException) obj;
@@ -73,18 +74,19 @@ public class DPDServiceException  extends org.apache.axis.AxisFault  implements 
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.exceptionDate==null && other.getExceptionDate()==null) || 
-             (this.exceptionDate!=null &&
-              this.exceptionDate.equals(other.getExceptionDate()))) &&
-            ((this.message1==null && other.getMessage1()==null) || 
-             (this.message1!=null &&
-              this.message1.equals(other.getMessage1())));
+        _equals = true &&
+                ((this.exceptionDate == null && other.getExceptionDate() == null) ||
+                        (this.exceptionDate != null &&
+                                this.exceptionDate.equals(other.getExceptionDate()))) &&
+                ((this.message1 == null && other.getMessage1() == null) ||
+                        (this.message1 != null &&
+                                this.message1.equals(other.getMessage1())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -103,7 +105,7 @@ public class DPDServiceException  extends org.apache.axis.AxisFault  implements 
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(DPDServiceException.class, true);
+            new org.apache.axis.description.TypeDesc(DPDServiceException.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "DPDServiceException"));
@@ -134,24 +136,24 @@ public class DPDServiceException  extends org.apache.axis.AxisFault  implements 
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 

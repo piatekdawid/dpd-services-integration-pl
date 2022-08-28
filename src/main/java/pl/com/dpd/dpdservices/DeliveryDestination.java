@@ -1,13 +1,13 @@
 /**
  * DeliveryDestination.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class DeliveryDestination  implements java.io.Serializable {
+public class DeliveryDestination implements java.io.Serializable {
     private pl.com.dpd.dpdservices.ProtocolDepot[] depotList;
 
     private java.lang.String destinationName;
@@ -16,16 +16,16 @@ public class DeliveryDestination  implements java.io.Serializable {
     }
 
     public DeliveryDestination(
-           pl.com.dpd.dpdservices.ProtocolDepot[] depotList,
-           java.lang.String destinationName) {
-           this.depotList = depotList;
-           this.destinationName = destinationName;
+            pl.com.dpd.dpdservices.ProtocolDepot[] depotList,
+            java.lang.String destinationName) {
+        this.depotList = depotList;
+        this.destinationName = destinationName;
     }
 
 
     /**
      * Gets the depotList value for this DeliveryDestination.
-     * 
+     *
      * @return depotList
      */
     public pl.com.dpd.dpdservices.ProtocolDepot[] getDepotList() {
@@ -35,7 +35,7 @@ public class DeliveryDestination  implements java.io.Serializable {
 
     /**
      * Sets the depotList value for this DeliveryDestination.
-     * 
+     *
      * @param depotList
      */
     public void setDepotList(pl.com.dpd.dpdservices.ProtocolDepot[] depotList) {
@@ -45,7 +45,7 @@ public class DeliveryDestination  implements java.io.Serializable {
 
     /**
      * Gets the destinationName value for this DeliveryDestination.
-     * 
+     *
      * @return destinationName
      */
     public java.lang.String getDestinationName() {
@@ -55,7 +55,7 @@ public class DeliveryDestination  implements java.io.Serializable {
 
     /**
      * Sets the destinationName value for this DeliveryDestination.
-     * 
+     *
      * @param destinationName
      */
     public void setDestinationName(java.lang.String destinationName) {
@@ -63,6 +63,7 @@ public class DeliveryDestination  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof DeliveryDestination)) return false;
         DeliveryDestination other = (DeliveryDestination) obj;
@@ -73,18 +74,19 @@ public class DeliveryDestination  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.depotList==null && other.getDepotList()==null) || 
-             (this.depotList!=null &&
-              java.util.Arrays.equals(this.depotList, other.getDepotList()))) &&
-            ((this.destinationName==null && other.getDestinationName()==null) || 
-             (this.destinationName!=null &&
-              this.destinationName.equals(other.getDestinationName())));
+        _equals = true &&
+                ((this.depotList == null && other.getDepotList() == null) ||
+                        (this.depotList != null &&
+                                java.util.Arrays.equals(this.depotList, other.getDepotList()))) &&
+                ((this.destinationName == null && other.getDestinationName() == null) ||
+                        (this.destinationName != null &&
+                                this.destinationName.equals(other.getDestinationName())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -92,12 +94,12 @@ public class DeliveryDestination  implements java.io.Serializable {
         __hashCodeCalc = true;
         int _hashCode = 1;
         if (getDepotList() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getDepotList());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getDepotList());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getDepotList(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
@@ -111,7 +113,7 @@ public class DeliveryDestination  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(DeliveryDestination.class, true);
+            new org.apache.axis.description.TypeDesc(DeliveryDestination.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "deliveryDestination"));
@@ -143,24 +145,24 @@ public class DeliveryDestination  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

@@ -1,14 +1,16 @@
 /**
  * DpdServicesParamsV2.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class DpdServicesParamsV2  implements java.io.Serializable {
-    private pl.com.dpd.dpdservices.PolicyDSPEnumV2 policy;
+import pl.com.dpd.dpdservices.enums.PolicyDSPEnumV2;
+
+public class DpdServicesParamsV2 implements java.io.Serializable {
+    private PolicyDSPEnumV2 policy;
 
     private pl.com.dpd.dpdservices.SessionDSPV2 session;
 
@@ -22,42 +24,42 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
     }
 
     public DpdServicesParamsV2(
-           pl.com.dpd.dpdservices.PolicyDSPEnumV2 policy,
-           pl.com.dpd.dpdservices.SessionDSPV2 session,
-           pl.com.dpd.dpdservices.PickupAddressDSPV2 pickupAddress,
-           pl.com.dpd.dpdservices.DeliveryDestination[] deliveryDestinations,
-           java.lang.Boolean genProtForNonMatching) {
-           this.policy = policy;
-           this.session = session;
-           this.pickupAddress = pickupAddress;
-           this.deliveryDestinations = deliveryDestinations;
-           this.genProtForNonMatching = genProtForNonMatching;
+            PolicyDSPEnumV2 policy,
+            pl.com.dpd.dpdservices.SessionDSPV2 session,
+            pl.com.dpd.dpdservices.PickupAddressDSPV2 pickupAddress,
+            pl.com.dpd.dpdservices.DeliveryDestination[] deliveryDestinations,
+            java.lang.Boolean genProtForNonMatching) {
+        this.policy = policy;
+        this.session = session;
+        this.pickupAddress = pickupAddress;
+        this.deliveryDestinations = deliveryDestinations;
+        this.genProtForNonMatching = genProtForNonMatching;
     }
 
 
     /**
      * Gets the policy value for this DpdServicesParamsV2.
-     * 
+     *
      * @return policy
      */
-    public pl.com.dpd.dpdservices.PolicyDSPEnumV2 getPolicy() {
+    public PolicyDSPEnumV2 getPolicy() {
         return policy;
     }
 
 
     /**
      * Sets the policy value for this DpdServicesParamsV2.
-     * 
+     *
      * @param policy
      */
-    public void setPolicy(pl.com.dpd.dpdservices.PolicyDSPEnumV2 policy) {
+    public void setPolicy(PolicyDSPEnumV2 policy) {
         this.policy = policy;
     }
 
 
     /**
      * Gets the session value for this DpdServicesParamsV2.
-     * 
+     *
      * @return session
      */
     public pl.com.dpd.dpdservices.SessionDSPV2 getSession() {
@@ -67,7 +69,7 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
 
     /**
      * Sets the session value for this DpdServicesParamsV2.
-     * 
+     *
      * @param session
      */
     public void setSession(pl.com.dpd.dpdservices.SessionDSPV2 session) {
@@ -77,7 +79,7 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
 
     /**
      * Gets the pickupAddress value for this DpdServicesParamsV2.
-     * 
+     *
      * @return pickupAddress
      */
     public pl.com.dpd.dpdservices.PickupAddressDSPV2 getPickupAddress() {
@@ -87,7 +89,7 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
 
     /**
      * Sets the pickupAddress value for this DpdServicesParamsV2.
-     * 
+     *
      * @param pickupAddress
      */
     public void setPickupAddress(pl.com.dpd.dpdservices.PickupAddressDSPV2 pickupAddress) {
@@ -97,7 +99,7 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
 
     /**
      * Gets the deliveryDestinations value for this DpdServicesParamsV2.
-     * 
+     *
      * @return deliveryDestinations
      */
     public pl.com.dpd.dpdservices.DeliveryDestination[] getDeliveryDestinations() {
@@ -107,7 +109,7 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
 
     /**
      * Sets the deliveryDestinations value for this DpdServicesParamsV2.
-     * 
+     *
      * @param deliveryDestinations
      */
     public void setDeliveryDestinations(pl.com.dpd.dpdservices.DeliveryDestination[] deliveryDestinations) {
@@ -117,7 +119,7 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
 
     /**
      * Gets the genProtForNonMatching value for this DpdServicesParamsV2.
-     * 
+     *
      * @return genProtForNonMatching
      */
     public java.lang.Boolean getGenProtForNonMatching() {
@@ -127,7 +129,7 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
 
     /**
      * Sets the genProtForNonMatching value for this DpdServicesParamsV2.
-     * 
+     *
      * @param genProtForNonMatching
      */
     public void setGenProtForNonMatching(java.lang.Boolean genProtForNonMatching) {
@@ -135,6 +137,7 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof DpdServicesParamsV2)) return false;
         DpdServicesParamsV2 other = (DpdServicesParamsV2) obj;
@@ -145,27 +148,28 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.policy==null && other.getPolicy()==null) || 
-             (this.policy!=null &&
-              this.policy.equals(other.getPolicy()))) &&
-            ((this.session==null && other.getSession()==null) || 
-             (this.session!=null &&
-              this.session.equals(other.getSession()))) &&
-            ((this.pickupAddress==null && other.getPickupAddress()==null) || 
-             (this.pickupAddress!=null &&
-              this.pickupAddress.equals(other.getPickupAddress()))) &&
-            ((this.deliveryDestinations==null && other.getDeliveryDestinations()==null) || 
-             (this.deliveryDestinations!=null &&
-              java.util.Arrays.equals(this.deliveryDestinations, other.getDeliveryDestinations()))) &&
-            ((this.genProtForNonMatching==null && other.getGenProtForNonMatching()==null) || 
-             (this.genProtForNonMatching!=null &&
-              this.genProtForNonMatching.equals(other.getGenProtForNonMatching())));
+        _equals = true &&
+                ((this.policy == null && other.getPolicy() == null) ||
+                        (this.policy != null &&
+                                this.policy.equals(other.getPolicy()))) &&
+                ((this.session == null && other.getSession() == null) ||
+                        (this.session != null &&
+                                this.session.equals(other.getSession()))) &&
+                ((this.pickupAddress == null && other.getPickupAddress() == null) ||
+                        (this.pickupAddress != null &&
+                                this.pickupAddress.equals(other.getPickupAddress()))) &&
+                ((this.deliveryDestinations == null && other.getDeliveryDestinations() == null) ||
+                        (this.deliveryDestinations != null &&
+                                java.util.Arrays.equals(this.deliveryDestinations, other.getDeliveryDestinations()))) &&
+                ((this.genProtForNonMatching == null && other.getGenProtForNonMatching() == null) ||
+                        (this.genProtForNonMatching != null &&
+                                this.genProtForNonMatching.equals(other.getGenProtForNonMatching())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -182,12 +186,12 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
             _hashCode += getPickupAddress().hashCode();
         }
         if (getDeliveryDestinations() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getDeliveryDestinations());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getDeliveryDestinations());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getDeliveryDestinations(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
@@ -201,7 +205,7 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(DpdServicesParamsV2.class, true);
+            new org.apache.axis.description.TypeDesc(DpdServicesParamsV2.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "dpdServicesParamsV2"));
@@ -254,24 +258,24 @@ public class DpdServicesParamsV2  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

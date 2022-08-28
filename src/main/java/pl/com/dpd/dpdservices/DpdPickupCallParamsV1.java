@@ -1,13 +1,15 @@
 /**
  * DpdPickupCallParamsV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class DpdPickupCallParamsV1  implements java.io.Serializable {
+import pl.com.dpd.dpdservices.enums.PolicyDPPEnumV1;
+
+public class DpdPickupCallParamsV1 implements java.io.Serializable {
     private pl.com.dpd.dpdservices.ContactInfoDPPV1 contactInfo;
 
     private pl.com.dpd.dpdservices.PickupAddressDSPV1 pickupAddress;
@@ -18,7 +20,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     private java.lang.String pickupTimeTo;
 
-    private pl.com.dpd.dpdservices.PolicyDPPEnumV1 policy;
+    private PolicyDPPEnumV1 policy;
 
     private pl.com.dpd.dpdservices.ProtocolDPPV1[] protocols;
 
@@ -26,26 +28,26 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
     }
 
     public DpdPickupCallParamsV1(
-           pl.com.dpd.dpdservices.ContactInfoDPPV1 contactInfo,
-           pl.com.dpd.dpdservices.PickupAddressDSPV1 pickupAddress,
-           java.util.Calendar pickupDate,
-           java.lang.String pickupTimeFrom,
-           java.lang.String pickupTimeTo,
-           pl.com.dpd.dpdservices.PolicyDPPEnumV1 policy,
-           pl.com.dpd.dpdservices.ProtocolDPPV1[] protocols) {
-           this.contactInfo = contactInfo;
-           this.pickupAddress = pickupAddress;
-           this.pickupDate = pickupDate;
-           this.pickupTimeFrom = pickupTimeFrom;
-           this.pickupTimeTo = pickupTimeTo;
-           this.policy = policy;
-           this.protocols = protocols;
+            pl.com.dpd.dpdservices.ContactInfoDPPV1 contactInfo,
+            pl.com.dpd.dpdservices.PickupAddressDSPV1 pickupAddress,
+            java.util.Calendar pickupDate,
+            java.lang.String pickupTimeFrom,
+            java.lang.String pickupTimeTo,
+            PolicyDPPEnumV1 policy,
+            pl.com.dpd.dpdservices.ProtocolDPPV1[] protocols) {
+        this.contactInfo = contactInfo;
+        this.pickupAddress = pickupAddress;
+        this.pickupDate = pickupDate;
+        this.pickupTimeFrom = pickupTimeFrom;
+        this.pickupTimeTo = pickupTimeTo;
+        this.policy = policy;
+        this.protocols = protocols;
     }
 
 
     /**
      * Gets the contactInfo value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @return contactInfo
      */
     public pl.com.dpd.dpdservices.ContactInfoDPPV1 getContactInfo() {
@@ -55,7 +57,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Sets the contactInfo value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @param contactInfo
      */
     public void setContactInfo(pl.com.dpd.dpdservices.ContactInfoDPPV1 contactInfo) {
@@ -65,7 +67,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Gets the pickupAddress value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @return pickupAddress
      */
     public pl.com.dpd.dpdservices.PickupAddressDSPV1 getPickupAddress() {
@@ -75,7 +77,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Sets the pickupAddress value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @param pickupAddress
      */
     public void setPickupAddress(pl.com.dpd.dpdservices.PickupAddressDSPV1 pickupAddress) {
@@ -85,7 +87,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Gets the pickupDate value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @return pickupDate
      */
     public java.util.Calendar getPickupDate() {
@@ -95,7 +97,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Sets the pickupDate value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @param pickupDate
      */
     public void setPickupDate(java.util.Calendar pickupDate) {
@@ -105,7 +107,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Gets the pickupTimeFrom value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @return pickupTimeFrom
      */
     public java.lang.String getPickupTimeFrom() {
@@ -115,7 +117,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Sets the pickupTimeFrom value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @param pickupTimeFrom
      */
     public void setPickupTimeFrom(java.lang.String pickupTimeFrom) {
@@ -125,7 +127,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Gets the pickupTimeTo value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @return pickupTimeTo
      */
     public java.lang.String getPickupTimeTo() {
@@ -135,7 +137,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Sets the pickupTimeTo value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @param pickupTimeTo
      */
     public void setPickupTimeTo(java.lang.String pickupTimeTo) {
@@ -145,27 +147,27 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Gets the policy value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @return policy
      */
-    public pl.com.dpd.dpdservices.PolicyDPPEnumV1 getPolicy() {
+    public PolicyDPPEnumV1 getPolicy() {
         return policy;
     }
 
 
     /**
      * Sets the policy value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @param policy
      */
-    public void setPolicy(pl.com.dpd.dpdservices.PolicyDPPEnumV1 policy) {
+    public void setPolicy(PolicyDPPEnumV1 policy) {
         this.policy = policy;
     }
 
 
     /**
      * Gets the protocols value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @return protocols
      */
     public pl.com.dpd.dpdservices.ProtocolDPPV1[] getProtocols() {
@@ -175,7 +177,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     /**
      * Sets the protocols value for this DpdPickupCallParamsV1.
-     * 
+     *
      * @param protocols
      */
     public void setProtocols(pl.com.dpd.dpdservices.ProtocolDPPV1[] protocols) {
@@ -191,6 +193,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof DpdPickupCallParamsV1)) return false;
         DpdPickupCallParamsV1 other = (DpdPickupCallParamsV1) obj;
@@ -201,33 +204,34 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.contactInfo==null && other.getContactInfo()==null) || 
-             (this.contactInfo!=null &&
-              this.contactInfo.equals(other.getContactInfo()))) &&
-            ((this.pickupAddress==null && other.getPickupAddress()==null) || 
-             (this.pickupAddress!=null &&
-              this.pickupAddress.equals(other.getPickupAddress()))) &&
-            ((this.pickupDate==null && other.getPickupDate()==null) || 
-             (this.pickupDate!=null &&
-              this.pickupDate.equals(other.getPickupDate()))) &&
-            ((this.pickupTimeFrom==null && other.getPickupTimeFrom()==null) || 
-             (this.pickupTimeFrom!=null &&
-              this.pickupTimeFrom.equals(other.getPickupTimeFrom()))) &&
-            ((this.pickupTimeTo==null && other.getPickupTimeTo()==null) || 
-             (this.pickupTimeTo!=null &&
-              this.pickupTimeTo.equals(other.getPickupTimeTo()))) &&
-            ((this.policy==null && other.getPolicy()==null) || 
-             (this.policy!=null &&
-              this.policy.equals(other.getPolicy()))) &&
-            ((this.protocols==null && other.getProtocols()==null) || 
-             (this.protocols!=null &&
-              java.util.Arrays.equals(this.protocols, other.getProtocols())));
+        _equals = true &&
+                ((this.contactInfo == null && other.getContactInfo() == null) ||
+                        (this.contactInfo != null &&
+                                this.contactInfo.equals(other.getContactInfo()))) &&
+                ((this.pickupAddress == null && other.getPickupAddress() == null) ||
+                        (this.pickupAddress != null &&
+                                this.pickupAddress.equals(other.getPickupAddress()))) &&
+                ((this.pickupDate == null && other.getPickupDate() == null) ||
+                        (this.pickupDate != null &&
+                                this.pickupDate.equals(other.getPickupDate()))) &&
+                ((this.pickupTimeFrom == null && other.getPickupTimeFrom() == null) ||
+                        (this.pickupTimeFrom != null &&
+                                this.pickupTimeFrom.equals(other.getPickupTimeFrom()))) &&
+                ((this.pickupTimeTo == null && other.getPickupTimeTo() == null) ||
+                        (this.pickupTimeTo != null &&
+                                this.pickupTimeTo.equals(other.getPickupTimeTo()))) &&
+                ((this.policy == null && other.getPolicy() == null) ||
+                        (this.policy != null &&
+                                this.policy.equals(other.getPolicy()))) &&
+                ((this.protocols == null && other.getProtocols() == null) ||
+                        (this.protocols != null &&
+                                java.util.Arrays.equals(this.protocols, other.getProtocols())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -253,12 +257,12 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
             _hashCode += getPolicy().hashCode();
         }
         if (getProtocols() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getProtocols());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getProtocols());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getProtocols(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
@@ -269,7 +273,7 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(DpdPickupCallParamsV1.class, true);
+            new org.apache.axis.description.TypeDesc(DpdPickupCallParamsV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "dpdPickupCallParamsV1"));
@@ -336,24 +340,24 @@ public class DpdPickupCallParamsV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

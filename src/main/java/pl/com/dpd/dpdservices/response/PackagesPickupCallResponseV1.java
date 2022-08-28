@@ -1,13 +1,13 @@
 /**
  * PackagesPickupCallResponseV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
-package pl.com.dpd.dpdservices;
+package pl.com.dpd.dpdservices.response;
 
-public class PackagesPickupCallResponseV1  implements java.io.Serializable {
+public class PackagesPickupCallResponseV1 implements java.io.Serializable {
     private java.lang.String orderNumber;
 
     private pl.com.dpd.dpdservices.ProtocolPCRV1[] prototocols;
@@ -16,16 +16,16 @@ public class PackagesPickupCallResponseV1  implements java.io.Serializable {
     }
 
     public PackagesPickupCallResponseV1(
-           java.lang.String orderNumber,
-           pl.com.dpd.dpdservices.ProtocolPCRV1[] prototocols) {
-           this.orderNumber = orderNumber;
-           this.prototocols = prototocols;
+            java.lang.String orderNumber,
+            pl.com.dpd.dpdservices.ProtocolPCRV1[] prototocols) {
+        this.orderNumber = orderNumber;
+        this.prototocols = prototocols;
     }
 
 
     /**
      * Gets the orderNumber value for this PackagesPickupCallResponseV1.
-     * 
+     *
      * @return orderNumber
      */
     public java.lang.String getOrderNumber() {
@@ -35,7 +35,7 @@ public class PackagesPickupCallResponseV1  implements java.io.Serializable {
 
     /**
      * Sets the orderNumber value for this PackagesPickupCallResponseV1.
-     * 
+     *
      * @param orderNumber
      */
     public void setOrderNumber(java.lang.String orderNumber) {
@@ -45,7 +45,7 @@ public class PackagesPickupCallResponseV1  implements java.io.Serializable {
 
     /**
      * Gets the prototocols value for this PackagesPickupCallResponseV1.
-     * 
+     *
      * @return prototocols
      */
     public pl.com.dpd.dpdservices.ProtocolPCRV1[] getPrototocols() {
@@ -55,7 +55,7 @@ public class PackagesPickupCallResponseV1  implements java.io.Serializable {
 
     /**
      * Sets the prototocols value for this PackagesPickupCallResponseV1.
-     * 
+     *
      * @param prototocols
      */
     public void setPrototocols(pl.com.dpd.dpdservices.ProtocolPCRV1[] prototocols) {
@@ -71,6 +71,7 @@ public class PackagesPickupCallResponseV1  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof PackagesPickupCallResponseV1)) return false;
         PackagesPickupCallResponseV1 other = (PackagesPickupCallResponseV1) obj;
@@ -81,18 +82,19 @@ public class PackagesPickupCallResponseV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.orderNumber==null && other.getOrderNumber()==null) || 
-             (this.orderNumber!=null &&
-              this.orderNumber.equals(other.getOrderNumber()))) &&
-            ((this.prototocols==null && other.getPrototocols()==null) || 
-             (this.prototocols!=null &&
-              java.util.Arrays.equals(this.prototocols, other.getPrototocols())));
+        _equals = true &&
+                ((this.orderNumber == null && other.getOrderNumber() == null) ||
+                        (this.orderNumber != null &&
+                                this.orderNumber.equals(other.getOrderNumber()))) &&
+                ((this.prototocols == null && other.getPrototocols() == null) ||
+                        (this.prototocols != null &&
+                                java.util.Arrays.equals(this.prototocols, other.getPrototocols())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -103,12 +105,12 @@ public class PackagesPickupCallResponseV1  implements java.io.Serializable {
             _hashCode += getOrderNumber().hashCode();
         }
         if (getPrototocols() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getPrototocols());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getPrototocols());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getPrototocols(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
@@ -119,7 +121,7 @@ public class PackagesPickupCallResponseV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(PackagesPickupCallResponseV1.class, true);
+            new org.apache.axis.description.TypeDesc(PackagesPickupCallResponseV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "packagesPickupCallResponseV1"));
@@ -151,24 +153,24 @@ public class PackagesPickupCallResponseV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

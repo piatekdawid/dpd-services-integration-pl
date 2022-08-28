@@ -1,35 +1,37 @@
 /**
  * InvalidFieldPGRV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class InvalidFieldPGRV1  implements java.io.Serializable {
+import pl.com.dpd.dpdservices.enums.FieldValidationStatusPGREnumV1;
+
+public class InvalidFieldPGRV1 implements java.io.Serializable {
     private java.lang.String fieldName;
 
     private java.lang.String info;
 
-    private pl.com.dpd.dpdservices.FieldValidationStatusPGREnumV1 status;
+    private FieldValidationStatusPGREnumV1 status;
 
     public InvalidFieldPGRV1() {
     }
 
     public InvalidFieldPGRV1(
-           java.lang.String fieldName,
-           java.lang.String info,
-           pl.com.dpd.dpdservices.FieldValidationStatusPGREnumV1 status) {
-           this.fieldName = fieldName;
-           this.info = info;
-           this.status = status;
+            java.lang.String fieldName,
+            java.lang.String info,
+            FieldValidationStatusPGREnumV1 status) {
+        this.fieldName = fieldName;
+        this.info = info;
+        this.status = status;
     }
 
 
     /**
      * Gets the fieldName value for this InvalidFieldPGRV1.
-     * 
+     *
      * @return fieldName
      */
     public java.lang.String getFieldName() {
@@ -39,7 +41,7 @@ public class InvalidFieldPGRV1  implements java.io.Serializable {
 
     /**
      * Sets the fieldName value for this InvalidFieldPGRV1.
-     * 
+     *
      * @param fieldName
      */
     public void setFieldName(java.lang.String fieldName) {
@@ -49,7 +51,7 @@ public class InvalidFieldPGRV1  implements java.io.Serializable {
 
     /**
      * Gets the info value for this InvalidFieldPGRV1.
-     * 
+     *
      * @return info
      */
     public java.lang.String getInfo() {
@@ -59,7 +61,7 @@ public class InvalidFieldPGRV1  implements java.io.Serializable {
 
     /**
      * Sets the info value for this InvalidFieldPGRV1.
-     * 
+     *
      * @param info
      */
     public void setInfo(java.lang.String info) {
@@ -69,24 +71,25 @@ public class InvalidFieldPGRV1  implements java.io.Serializable {
 
     /**
      * Gets the status value for this InvalidFieldPGRV1.
-     * 
+     *
      * @return status
      */
-    public pl.com.dpd.dpdservices.FieldValidationStatusPGREnumV1 getStatus() {
+    public FieldValidationStatusPGREnumV1 getStatus() {
         return status;
     }
 
 
     /**
      * Sets the status value for this InvalidFieldPGRV1.
-     * 
+     *
      * @param status
      */
-    public void setStatus(pl.com.dpd.dpdservices.FieldValidationStatusPGREnumV1 status) {
+    public void setStatus(FieldValidationStatusPGREnumV1 status) {
         this.status = status;
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof InvalidFieldPGRV1)) return false;
         InvalidFieldPGRV1 other = (InvalidFieldPGRV1) obj;
@@ -97,21 +100,22 @@ public class InvalidFieldPGRV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.fieldName==null && other.getFieldName()==null) || 
-             (this.fieldName!=null &&
-              this.fieldName.equals(other.getFieldName()))) &&
-            ((this.info==null && other.getInfo()==null) || 
-             (this.info!=null &&
-              this.info.equals(other.getInfo()))) &&
-            ((this.status==null && other.getStatus()==null) || 
-             (this.status!=null &&
-              this.status.equals(other.getStatus())));
+        _equals = true &&
+                ((this.fieldName == null && other.getFieldName() == null) ||
+                        (this.fieldName != null &&
+                                this.fieldName.equals(other.getFieldName()))) &&
+                ((this.info == null && other.getInfo() == null) ||
+                        (this.info != null &&
+                                this.info.equals(other.getInfo()))) &&
+                ((this.status == null && other.getStatus() == null) ||
+                        (this.status != null &&
+                                this.status.equals(other.getStatus())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -133,7 +137,7 @@ public class InvalidFieldPGRV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(InvalidFieldPGRV1.class, true);
+            new org.apache.axis.description.TypeDesc(InvalidFieldPGRV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "invalidFieldPGRV1"));
@@ -171,24 +175,24 @@ public class InvalidFieldPGRV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

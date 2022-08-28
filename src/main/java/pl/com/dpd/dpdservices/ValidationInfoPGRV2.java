@@ -1,13 +1,13 @@
 /**
  * ValidationInfoPGRV2.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class ValidationInfoPGRV2  implements java.io.Serializable {
+public class ValidationInfoPGRV2 implements java.io.Serializable {
     private java.lang.Integer errorId;
 
     private java.lang.String errorCode;
@@ -20,20 +20,20 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
     }
 
     public ValidationInfoPGRV2(
-           java.lang.Integer errorId,
-           java.lang.String errorCode,
-           java.lang.String fieldNames,
-           java.lang.String info) {
-           this.errorId = errorId;
-           this.errorCode = errorCode;
-           this.fieldNames = fieldNames;
-           this.info = info;
+            java.lang.Integer errorId,
+            java.lang.String errorCode,
+            java.lang.String fieldNames,
+            java.lang.String info) {
+        this.errorId = errorId;
+        this.errorCode = errorCode;
+        this.fieldNames = fieldNames;
+        this.info = info;
     }
 
 
     /**
      * Gets the errorId value for this ValidationInfoPGRV2.
-     * 
+     *
      * @return errorId
      */
     public java.lang.Integer getErrorId() {
@@ -43,7 +43,7 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
 
     /**
      * Sets the errorId value for this ValidationInfoPGRV2.
-     * 
+     *
      * @param errorId
      */
     public void setErrorId(java.lang.Integer errorId) {
@@ -53,7 +53,7 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
 
     /**
      * Gets the errorCode value for this ValidationInfoPGRV2.
-     * 
+     *
      * @return errorCode
      */
     public java.lang.String getErrorCode() {
@@ -63,7 +63,7 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
 
     /**
      * Sets the errorCode value for this ValidationInfoPGRV2.
-     * 
+     *
      * @param errorCode
      */
     public void setErrorCode(java.lang.String errorCode) {
@@ -73,7 +73,7 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
 
     /**
      * Gets the fieldNames value for this ValidationInfoPGRV2.
-     * 
+     *
      * @return fieldNames
      */
     public java.lang.String getFieldNames() {
@@ -83,7 +83,7 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
 
     /**
      * Sets the fieldNames value for this ValidationInfoPGRV2.
-     * 
+     *
      * @param fieldNames
      */
     public void setFieldNames(java.lang.String fieldNames) {
@@ -93,7 +93,7 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
 
     /**
      * Gets the info value for this ValidationInfoPGRV2.
-     * 
+     *
      * @return info
      */
     public java.lang.String getInfo() {
@@ -103,7 +103,7 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
 
     /**
      * Sets the info value for this ValidationInfoPGRV2.
-     * 
+     *
      * @param info
      */
     public void setInfo(java.lang.String info) {
@@ -111,6 +111,7 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof ValidationInfoPGRV2)) return false;
         ValidationInfoPGRV2 other = (ValidationInfoPGRV2) obj;
@@ -121,24 +122,25 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.errorId==null && other.getErrorId()==null) || 
-             (this.errorId!=null &&
-              this.errorId.equals(other.getErrorId()))) &&
-            ((this.errorCode==null && other.getErrorCode()==null) || 
-             (this.errorCode!=null &&
-              this.errorCode.equals(other.getErrorCode()))) &&
-            ((this.fieldNames==null && other.getFieldNames()==null) || 
-             (this.fieldNames!=null &&
-              this.fieldNames.equals(other.getFieldNames()))) &&
-            ((this.info==null && other.getInfo()==null) || 
-             (this.info!=null &&
-              this.info.equals(other.getInfo())));
+        _equals = true &&
+                ((this.errorId == null && other.getErrorId() == null) ||
+                        (this.errorId != null &&
+                                this.errorId.equals(other.getErrorId()))) &&
+                ((this.errorCode == null && other.getErrorCode() == null) ||
+                        (this.errorCode != null &&
+                                this.errorCode.equals(other.getErrorCode()))) &&
+                ((this.fieldNames == null && other.getFieldNames() == null) ||
+                        (this.fieldNames != null &&
+                                this.fieldNames.equals(other.getFieldNames()))) &&
+                ((this.info == null && other.getInfo() == null) ||
+                        (this.info != null &&
+                                this.info.equals(other.getInfo())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -163,7 +165,7 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(ValidationInfoPGRV2.class, true);
+            new org.apache.axis.description.TypeDesc(ValidationInfoPGRV2.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "validationInfoPGRV2"));
@@ -208,24 +210,24 @@ public class ValidationInfoPGRV2  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

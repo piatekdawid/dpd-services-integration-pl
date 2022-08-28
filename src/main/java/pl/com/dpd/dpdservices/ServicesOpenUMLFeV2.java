@@ -1,13 +1,13 @@
 /**
  * ServicesOpenUMLFeV2.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class ServicesOpenUMLFeV2  implements java.io.Serializable {
+public class ServicesOpenUMLFeV2 implements java.io.Serializable {
     private pl.com.dpd.dpdservices.ServiceCarryInOpenUMLFeV1 carryIn;
 
     private pl.com.dpd.dpdservices.ServiceCODOpenUMLFeV1 cod;
@@ -42,42 +42,42 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
     }
 
     public ServicesOpenUMLFeV2(
-           pl.com.dpd.dpdservices.ServiceCarryInOpenUMLFeV1 carryIn,
-           pl.com.dpd.dpdservices.ServiceCODOpenUMLFeV1 cod,
-           pl.com.dpd.dpdservices.ServiceCUDOpenUMLeFV1 cud,
-           pl.com.dpd.dpdservices.ServiceDeclaredValueOpenUMLFeV1 declaredValue,
-           pl.com.dpd.dpdservices.ServiceDedicatedDeliveryOpenUMLFeV1 dedicatedDelivery,
-           pl.com.dpd.dpdservices.ServicePalletOpenUMLFeV1 dox,
-           pl.com.dpd.dpdservices.ServiceDutyOpenUMLeFV1 duty,
-           pl.com.dpd.dpdservices.ServiceGuaranteeOpenUMLFeV1 guarantee,
-           pl.com.dpd.dpdservices.ServiceInPersOpenUMLFeV1 inPers,
-           pl.com.dpd.dpdservices.ServicePalletOpenUMLFeV1 pallet,
-           pl.com.dpd.dpdservices.ServicePrivPersOpenUMLFeV1 privPers,
-           pl.com.dpd.dpdservices.ServiceRODOpenUMLFeV1 rod,
-           pl.com.dpd.dpdservices.ServiceSelfColOpenUMLFeV1 selfCol,
-           pl.com.dpd.dpdservices.ServiceTiresOpenUMLFeV1 tires,
-           pl.com.dpd.dpdservices.ServiceTiresExportOpenUMLFeV1 tiresExport) {
-           this.carryIn = carryIn;
-           this.cod = cod;
-           this.cud = cud;
-           this.declaredValue = declaredValue;
-           this.dedicatedDelivery = dedicatedDelivery;
-           this.dox = dox;
-           this.duty = duty;
-           this.guarantee = guarantee;
-           this.inPers = inPers;
-           this.pallet = pallet;
-           this.privPers = privPers;
-           this.rod = rod;
-           this.selfCol = selfCol;
-           this.tires = tires;
-           this.tiresExport = tiresExport;
+            pl.com.dpd.dpdservices.ServiceCarryInOpenUMLFeV1 carryIn,
+            pl.com.dpd.dpdservices.ServiceCODOpenUMLFeV1 cod,
+            pl.com.dpd.dpdservices.ServiceCUDOpenUMLeFV1 cud,
+            pl.com.dpd.dpdservices.ServiceDeclaredValueOpenUMLFeV1 declaredValue,
+            pl.com.dpd.dpdservices.ServiceDedicatedDeliveryOpenUMLFeV1 dedicatedDelivery,
+            pl.com.dpd.dpdservices.ServicePalletOpenUMLFeV1 dox,
+            pl.com.dpd.dpdservices.ServiceDutyOpenUMLeFV1 duty,
+            pl.com.dpd.dpdservices.ServiceGuaranteeOpenUMLFeV1 guarantee,
+            pl.com.dpd.dpdservices.ServiceInPersOpenUMLFeV1 inPers,
+            pl.com.dpd.dpdservices.ServicePalletOpenUMLFeV1 pallet,
+            pl.com.dpd.dpdservices.ServicePrivPersOpenUMLFeV1 privPers,
+            pl.com.dpd.dpdservices.ServiceRODOpenUMLFeV1 rod,
+            pl.com.dpd.dpdservices.ServiceSelfColOpenUMLFeV1 selfCol,
+            pl.com.dpd.dpdservices.ServiceTiresOpenUMLFeV1 tires,
+            pl.com.dpd.dpdservices.ServiceTiresExportOpenUMLFeV1 tiresExport) {
+        this.carryIn = carryIn;
+        this.cod = cod;
+        this.cud = cud;
+        this.declaredValue = declaredValue;
+        this.dedicatedDelivery = dedicatedDelivery;
+        this.dox = dox;
+        this.duty = duty;
+        this.guarantee = guarantee;
+        this.inPers = inPers;
+        this.pallet = pallet;
+        this.privPers = privPers;
+        this.rod = rod;
+        this.selfCol = selfCol;
+        this.tires = tires;
+        this.tiresExport = tiresExport;
     }
 
 
     /**
      * Gets the carryIn value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return carryIn
      */
     public pl.com.dpd.dpdservices.ServiceCarryInOpenUMLFeV1 getCarryIn() {
@@ -87,7 +87,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the carryIn value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param carryIn
      */
     public void setCarryIn(pl.com.dpd.dpdservices.ServiceCarryInOpenUMLFeV1 carryIn) {
@@ -97,7 +97,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the cod value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return cod
      */
     public pl.com.dpd.dpdservices.ServiceCODOpenUMLFeV1 getCod() {
@@ -107,7 +107,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the cod value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param cod
      */
     public void setCod(pl.com.dpd.dpdservices.ServiceCODOpenUMLFeV1 cod) {
@@ -117,7 +117,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the cud value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return cud
      */
     public pl.com.dpd.dpdservices.ServiceCUDOpenUMLeFV1 getCud() {
@@ -127,7 +127,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the cud value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param cud
      */
     public void setCud(pl.com.dpd.dpdservices.ServiceCUDOpenUMLeFV1 cud) {
@@ -137,7 +137,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the declaredValue value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return declaredValue
      */
     public pl.com.dpd.dpdservices.ServiceDeclaredValueOpenUMLFeV1 getDeclaredValue() {
@@ -147,7 +147,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the declaredValue value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param declaredValue
      */
     public void setDeclaredValue(pl.com.dpd.dpdservices.ServiceDeclaredValueOpenUMLFeV1 declaredValue) {
@@ -157,7 +157,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the dedicatedDelivery value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return dedicatedDelivery
      */
     public pl.com.dpd.dpdservices.ServiceDedicatedDeliveryOpenUMLFeV1 getDedicatedDelivery() {
@@ -167,7 +167,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the dedicatedDelivery value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param dedicatedDelivery
      */
     public void setDedicatedDelivery(pl.com.dpd.dpdservices.ServiceDedicatedDeliveryOpenUMLFeV1 dedicatedDelivery) {
@@ -177,7 +177,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the dox value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return dox
      */
     public pl.com.dpd.dpdservices.ServicePalletOpenUMLFeV1 getDox() {
@@ -187,7 +187,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the dox value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param dox
      */
     public void setDox(pl.com.dpd.dpdservices.ServicePalletOpenUMLFeV1 dox) {
@@ -197,7 +197,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the duty value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return duty
      */
     public pl.com.dpd.dpdservices.ServiceDutyOpenUMLeFV1 getDuty() {
@@ -207,7 +207,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the duty value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param duty
      */
     public void setDuty(pl.com.dpd.dpdservices.ServiceDutyOpenUMLeFV1 duty) {
@@ -217,7 +217,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the guarantee value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return guarantee
      */
     public pl.com.dpd.dpdservices.ServiceGuaranteeOpenUMLFeV1 getGuarantee() {
@@ -227,7 +227,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the guarantee value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param guarantee
      */
     public void setGuarantee(pl.com.dpd.dpdservices.ServiceGuaranteeOpenUMLFeV1 guarantee) {
@@ -237,7 +237,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the inPers value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return inPers
      */
     public pl.com.dpd.dpdservices.ServiceInPersOpenUMLFeV1 getInPers() {
@@ -247,7 +247,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the inPers value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param inPers
      */
     public void setInPers(pl.com.dpd.dpdservices.ServiceInPersOpenUMLFeV1 inPers) {
@@ -257,7 +257,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the pallet value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return pallet
      */
     public pl.com.dpd.dpdservices.ServicePalletOpenUMLFeV1 getPallet() {
@@ -267,7 +267,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the pallet value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param pallet
      */
     public void setPallet(pl.com.dpd.dpdservices.ServicePalletOpenUMLFeV1 pallet) {
@@ -277,7 +277,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the privPers value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return privPers
      */
     public pl.com.dpd.dpdservices.ServicePrivPersOpenUMLFeV1 getPrivPers() {
@@ -287,7 +287,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the privPers value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param privPers
      */
     public void setPrivPers(pl.com.dpd.dpdservices.ServicePrivPersOpenUMLFeV1 privPers) {
@@ -297,7 +297,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the rod value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return rod
      */
     public pl.com.dpd.dpdservices.ServiceRODOpenUMLFeV1 getRod() {
@@ -307,7 +307,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the rod value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param rod
      */
     public void setRod(pl.com.dpd.dpdservices.ServiceRODOpenUMLFeV1 rod) {
@@ -317,7 +317,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the selfCol value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return selfCol
      */
     public pl.com.dpd.dpdservices.ServiceSelfColOpenUMLFeV1 getSelfCol() {
@@ -327,7 +327,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the selfCol value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param selfCol
      */
     public void setSelfCol(pl.com.dpd.dpdservices.ServiceSelfColOpenUMLFeV1 selfCol) {
@@ -337,7 +337,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the tires value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return tires
      */
     public pl.com.dpd.dpdservices.ServiceTiresOpenUMLFeV1 getTires() {
@@ -347,7 +347,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the tires value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param tires
      */
     public void setTires(pl.com.dpd.dpdservices.ServiceTiresOpenUMLFeV1 tires) {
@@ -357,7 +357,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Gets the tiresExport value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @return tiresExport
      */
     public pl.com.dpd.dpdservices.ServiceTiresExportOpenUMLFeV1 getTiresExport() {
@@ -367,7 +367,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     /**
      * Sets the tiresExport value for this ServicesOpenUMLFeV2.
-     * 
+     *
      * @param tiresExport
      */
     public void setTiresExport(pl.com.dpd.dpdservices.ServiceTiresExportOpenUMLFeV1 tiresExport) {
@@ -375,6 +375,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof ServicesOpenUMLFeV2)) return false;
         ServicesOpenUMLFeV2 other = (ServicesOpenUMLFeV2) obj;
@@ -385,57 +386,58 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.carryIn==null && other.getCarryIn()==null) || 
-             (this.carryIn!=null &&
-              this.carryIn.equals(other.getCarryIn()))) &&
-            ((this.cod==null && other.getCod()==null) || 
-             (this.cod!=null &&
-              this.cod.equals(other.getCod()))) &&
-            ((this.cud==null && other.getCud()==null) || 
-             (this.cud!=null &&
-              this.cud.equals(other.getCud()))) &&
-            ((this.declaredValue==null && other.getDeclaredValue()==null) || 
-             (this.declaredValue!=null &&
-              this.declaredValue.equals(other.getDeclaredValue()))) &&
-            ((this.dedicatedDelivery==null && other.getDedicatedDelivery()==null) || 
-             (this.dedicatedDelivery!=null &&
-              this.dedicatedDelivery.equals(other.getDedicatedDelivery()))) &&
-            ((this.dox==null && other.getDox()==null) || 
-             (this.dox!=null &&
-              this.dox.equals(other.getDox()))) &&
-            ((this.duty==null && other.getDuty()==null) || 
-             (this.duty!=null &&
-              this.duty.equals(other.getDuty()))) &&
-            ((this.guarantee==null && other.getGuarantee()==null) || 
-             (this.guarantee!=null &&
-              this.guarantee.equals(other.getGuarantee()))) &&
-            ((this.inPers==null && other.getInPers()==null) || 
-             (this.inPers!=null &&
-              this.inPers.equals(other.getInPers()))) &&
-            ((this.pallet==null && other.getPallet()==null) || 
-             (this.pallet!=null &&
-              this.pallet.equals(other.getPallet()))) &&
-            ((this.privPers==null && other.getPrivPers()==null) || 
-             (this.privPers!=null &&
-              this.privPers.equals(other.getPrivPers()))) &&
-            ((this.rod==null && other.getRod()==null) || 
-             (this.rod!=null &&
-              this.rod.equals(other.getRod()))) &&
-            ((this.selfCol==null && other.getSelfCol()==null) || 
-             (this.selfCol!=null &&
-              this.selfCol.equals(other.getSelfCol()))) &&
-            ((this.tires==null && other.getTires()==null) || 
-             (this.tires!=null &&
-              this.tires.equals(other.getTires()))) &&
-            ((this.tiresExport==null && other.getTiresExport()==null) || 
-             (this.tiresExport!=null &&
-              this.tiresExport.equals(other.getTiresExport())));
+        _equals = true &&
+                ((this.carryIn == null && other.getCarryIn() == null) ||
+                        (this.carryIn != null &&
+                                this.carryIn.equals(other.getCarryIn()))) &&
+                ((this.cod == null && other.getCod() == null) ||
+                        (this.cod != null &&
+                                this.cod.equals(other.getCod()))) &&
+                ((this.cud == null && other.getCud() == null) ||
+                        (this.cud != null &&
+                                this.cud.equals(other.getCud()))) &&
+                ((this.declaredValue == null && other.getDeclaredValue() == null) ||
+                        (this.declaredValue != null &&
+                                this.declaredValue.equals(other.getDeclaredValue()))) &&
+                ((this.dedicatedDelivery == null && other.getDedicatedDelivery() == null) ||
+                        (this.dedicatedDelivery != null &&
+                                this.dedicatedDelivery.equals(other.getDedicatedDelivery()))) &&
+                ((this.dox == null && other.getDox() == null) ||
+                        (this.dox != null &&
+                                this.dox.equals(other.getDox()))) &&
+                ((this.duty == null && other.getDuty() == null) ||
+                        (this.duty != null &&
+                                this.duty.equals(other.getDuty()))) &&
+                ((this.guarantee == null && other.getGuarantee() == null) ||
+                        (this.guarantee != null &&
+                                this.guarantee.equals(other.getGuarantee()))) &&
+                ((this.inPers == null && other.getInPers() == null) ||
+                        (this.inPers != null &&
+                                this.inPers.equals(other.getInPers()))) &&
+                ((this.pallet == null && other.getPallet() == null) ||
+                        (this.pallet != null &&
+                                this.pallet.equals(other.getPallet()))) &&
+                ((this.privPers == null && other.getPrivPers() == null) ||
+                        (this.privPers != null &&
+                                this.privPers.equals(other.getPrivPers()))) &&
+                ((this.rod == null && other.getRod() == null) ||
+                        (this.rod != null &&
+                                this.rod.equals(other.getRod()))) &&
+                ((this.selfCol == null && other.getSelfCol() == null) ||
+                        (this.selfCol != null &&
+                                this.selfCol.equals(other.getSelfCol()))) &&
+                ((this.tires == null && other.getTires() == null) ||
+                        (this.tires != null &&
+                                this.tires.equals(other.getTires()))) &&
+                ((this.tiresExport == null && other.getTiresExport() == null) ||
+                        (this.tiresExport != null &&
+                                this.tiresExport.equals(other.getTiresExport())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -493,7 +495,7 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(ServicesOpenUMLFeV2.class, true);
+            new org.apache.axis.description.TypeDesc(ServicesOpenUMLFeV2.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "servicesOpenUMLFeV2"));
@@ -615,24 +617,24 @@ public class ServicesOpenUMLFeV2  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

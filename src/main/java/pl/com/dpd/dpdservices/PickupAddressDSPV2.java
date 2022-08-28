@@ -1,13 +1,13 @@
 /**
  * PickupAddressDSPV2.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class PickupAddressDSPV2  implements java.io.Serializable {
+public class PickupAddressDSPV2 implements java.io.Serializable {
     private java.lang.String address;
 
     private java.lang.String city;
@@ -30,30 +30,30 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
     }
 
     public PickupAddressDSPV2(
-           java.lang.String address,
-           java.lang.String city,
-           java.lang.String company,
-           java.lang.String countryCode,
-           java.lang.String email,
-           java.lang.Integer fid,
-           java.lang.String name,
-           java.lang.String phone,
-           java.lang.String postalCode) {
-           this.address = address;
-           this.city = city;
-           this.company = company;
-           this.countryCode = countryCode;
-           this.email = email;
-           this.fid = fid;
-           this.name = name;
-           this.phone = phone;
-           this.postalCode = postalCode;
+            java.lang.String address,
+            java.lang.String city,
+            java.lang.String company,
+            java.lang.String countryCode,
+            java.lang.String email,
+            java.lang.Integer fid,
+            java.lang.String name,
+            java.lang.String phone,
+            java.lang.String postalCode) {
+        this.address = address;
+        this.city = city;
+        this.company = company;
+        this.countryCode = countryCode;
+        this.email = email;
+        this.fid = fid;
+        this.name = name;
+        this.phone = phone;
+        this.postalCode = postalCode;
     }
 
 
     /**
      * Gets the address value for this PickupAddressDSPV2.
-     * 
+     *
      * @return address
      */
     public java.lang.String getAddress() {
@@ -63,7 +63,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the address value for this PickupAddressDSPV2.
-     * 
+     *
      * @param address
      */
     public void setAddress(java.lang.String address) {
@@ -73,7 +73,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Gets the city value for this PickupAddressDSPV2.
-     * 
+     *
      * @return city
      */
     public java.lang.String getCity() {
@@ -83,7 +83,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the city value for this PickupAddressDSPV2.
-     * 
+     *
      * @param city
      */
     public void setCity(java.lang.String city) {
@@ -93,7 +93,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Gets the company value for this PickupAddressDSPV2.
-     * 
+     *
      * @return company
      */
     public java.lang.String getCompany() {
@@ -103,7 +103,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the company value for this PickupAddressDSPV2.
-     * 
+     *
      * @param company
      */
     public void setCompany(java.lang.String company) {
@@ -113,7 +113,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Gets the countryCode value for this PickupAddressDSPV2.
-     * 
+     *
      * @return countryCode
      */
     public java.lang.String getCountryCode() {
@@ -123,7 +123,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the countryCode value for this PickupAddressDSPV2.
-     * 
+     *
      * @param countryCode
      */
     public void setCountryCode(java.lang.String countryCode) {
@@ -133,7 +133,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Gets the email value for this PickupAddressDSPV2.
-     * 
+     *
      * @return email
      */
     public java.lang.String getEmail() {
@@ -143,7 +143,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the email value for this PickupAddressDSPV2.
-     * 
+     *
      * @param email
      */
     public void setEmail(java.lang.String email) {
@@ -153,7 +153,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Gets the fid value for this PickupAddressDSPV2.
-     * 
+     *
      * @return fid
      */
     public java.lang.Integer getFid() {
@@ -163,7 +163,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the fid value for this PickupAddressDSPV2.
-     * 
+     *
      * @param fid
      */
     public void setFid(java.lang.Integer fid) {
@@ -173,7 +173,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Gets the name value for this PickupAddressDSPV2.
-     * 
+     *
      * @return name
      */
     public java.lang.String getName() {
@@ -183,7 +183,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the name value for this PickupAddressDSPV2.
-     * 
+     *
      * @param name
      */
     public void setName(java.lang.String name) {
@@ -193,7 +193,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Gets the phone value for this PickupAddressDSPV2.
-     * 
+     *
      * @return phone
      */
     public java.lang.String getPhone() {
@@ -203,7 +203,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the phone value for this PickupAddressDSPV2.
-     * 
+     *
      * @param phone
      */
     public void setPhone(java.lang.String phone) {
@@ -213,7 +213,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Gets the postalCode value for this PickupAddressDSPV2.
-     * 
+     *
      * @return postalCode
      */
     public java.lang.String getPostalCode() {
@@ -223,7 +223,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     /**
      * Sets the postalCode value for this PickupAddressDSPV2.
-     * 
+     *
      * @param postalCode
      */
     public void setPostalCode(java.lang.String postalCode) {
@@ -231,6 +231,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof PickupAddressDSPV2)) return false;
         PickupAddressDSPV2 other = (PickupAddressDSPV2) obj;
@@ -241,39 +242,40 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.address==null && other.getAddress()==null) || 
-             (this.address!=null &&
-              this.address.equals(other.getAddress()))) &&
-            ((this.city==null && other.getCity()==null) || 
-             (this.city!=null &&
-              this.city.equals(other.getCity()))) &&
-            ((this.company==null && other.getCompany()==null) || 
-             (this.company!=null &&
-              this.company.equals(other.getCompany()))) &&
-            ((this.countryCode==null && other.getCountryCode()==null) || 
-             (this.countryCode!=null &&
-              this.countryCode.equals(other.getCountryCode()))) &&
-            ((this.email==null && other.getEmail()==null) || 
-             (this.email!=null &&
-              this.email.equals(other.getEmail()))) &&
-            ((this.fid==null && other.getFid()==null) || 
-             (this.fid!=null &&
-              this.fid.equals(other.getFid()))) &&
-            ((this.name==null && other.getName()==null) || 
-             (this.name!=null &&
-              this.name.equals(other.getName()))) &&
-            ((this.phone==null && other.getPhone()==null) || 
-             (this.phone!=null &&
-              this.phone.equals(other.getPhone()))) &&
-            ((this.postalCode==null && other.getPostalCode()==null) || 
-             (this.postalCode!=null &&
-              this.postalCode.equals(other.getPostalCode())));
+        _equals = true &&
+                ((this.address == null && other.getAddress() == null) ||
+                        (this.address != null &&
+                                this.address.equals(other.getAddress()))) &&
+                ((this.city == null && other.getCity() == null) ||
+                        (this.city != null &&
+                                this.city.equals(other.getCity()))) &&
+                ((this.company == null && other.getCompany() == null) ||
+                        (this.company != null &&
+                                this.company.equals(other.getCompany()))) &&
+                ((this.countryCode == null && other.getCountryCode() == null) ||
+                        (this.countryCode != null &&
+                                this.countryCode.equals(other.getCountryCode()))) &&
+                ((this.email == null && other.getEmail() == null) ||
+                        (this.email != null &&
+                                this.email.equals(other.getEmail()))) &&
+                ((this.fid == null && other.getFid() == null) ||
+                        (this.fid != null &&
+                                this.fid.equals(other.getFid()))) &&
+                ((this.name == null && other.getName() == null) ||
+                        (this.name != null &&
+                                this.name.equals(other.getName()))) &&
+                ((this.phone == null && other.getPhone() == null) ||
+                        (this.phone != null &&
+                                this.phone.equals(other.getPhone()))) &&
+                ((this.postalCode == null && other.getPostalCode() == null) ||
+                        (this.postalCode != null &&
+                                this.postalCode.equals(other.getPostalCode())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -313,7 +315,7 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(PickupAddressDSPV2.class, true);
+            new org.apache.axis.description.TypeDesc(PickupAddressDSPV2.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "pickupAddressDSPV2"));
@@ -393,24 +395,24 @@ public class PickupAddressDSPV2  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

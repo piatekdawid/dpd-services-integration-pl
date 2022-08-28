@@ -1,27 +1,27 @@
 /**
- * SchemaValidationException.java
- *
+ * Exception.java
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
-package pl.com.dpd.dpdservices;
+package pl.com.dpd.dpdservices.exception;
 
-public class SchemaValidationException  extends org.apache.axis.AxisFault  implements java.io.Serializable {
+public class Exception extends org.apache.axis.AxisFault implements java.io.Serializable {
     private java.lang.String message1;
 
-    public SchemaValidationException() {
+    public Exception() {
     }
 
-    public SchemaValidationException(
-           java.lang.String message1) {
+    public Exception(
+            java.lang.String message1) {
         this.message1 = message1;
     }
 
 
     /**
-     * Gets the message1 value for this SchemaValidationException.
-     * 
+     * Gets the message1 value for this Exception.
+     *
      * @return message1
      */
     public java.lang.String getMessage1() {
@@ -30,8 +30,8 @@ public class SchemaValidationException  extends org.apache.axis.AxisFault  imple
 
 
     /**
-     * Sets the message1 value for this SchemaValidationException.
-     * 
+     * Sets the message1 value for this Exception.
+     *
      * @param message1
      */
     public void setMessage1(java.lang.String message1) {
@@ -39,9 +39,10 @@ public class SchemaValidationException  extends org.apache.axis.AxisFault  imple
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
-        if (!(obj instanceof SchemaValidationException)) return false;
-        SchemaValidationException other = (SchemaValidationException) obj;
+        if (!(obj instanceof Exception)) return false;
+        Exception other = (Exception) obj;
         if (obj == null) return false;
         if (this == obj) return true;
         if (__equalsCalc != null) {
@@ -49,15 +50,16 @@ public class SchemaValidationException  extends org.apache.axis.AxisFault  imple
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.message1==null && other.getMessage1()==null) || 
-             (this.message1!=null &&
-              this.message1.equals(other.getMessage1())));
+        _equals = true &&
+                ((this.message1 == null && other.getMessage1() == null) ||
+                        (this.message1 != null &&
+                                this.message1.equals(other.getMessage1())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -73,10 +75,10 @@ public class SchemaValidationException  extends org.apache.axis.AxisFault  imple
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(SchemaValidationException.class, true);
+            new org.apache.axis.description.TypeDesc(Exception.class, true);
 
     static {
-        typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "SchemaValidationException"));
+        typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "Exception"));
         org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
         elemField.setFieldName("message1");
         elemField.setXmlName(new javax.xml.namespace.QName("", "message"));
@@ -97,24 +99,24 @@ public class SchemaValidationException  extends org.apache.axis.AxisFault  imple
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 

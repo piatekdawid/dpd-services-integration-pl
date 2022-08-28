@@ -1,13 +1,13 @@
 /**
  * ProtocolPCRV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class ProtocolPCRV1  implements java.io.Serializable {
+public class ProtocolPCRV1 implements java.io.Serializable {
     private java.lang.String documentId;
 
     private pl.com.dpd.dpdservices.StatusInfoPCRV1 statusInfo;
@@ -16,16 +16,16 @@ public class ProtocolPCRV1  implements java.io.Serializable {
     }
 
     public ProtocolPCRV1(
-           java.lang.String documentId,
-           pl.com.dpd.dpdservices.StatusInfoPCRV1 statusInfo) {
-           this.documentId = documentId;
-           this.statusInfo = statusInfo;
+            java.lang.String documentId,
+            pl.com.dpd.dpdservices.StatusInfoPCRV1 statusInfo) {
+        this.documentId = documentId;
+        this.statusInfo = statusInfo;
     }
 
 
     /**
      * Gets the documentId value for this ProtocolPCRV1.
-     * 
+     *
      * @return documentId
      */
     public java.lang.String getDocumentId() {
@@ -35,7 +35,7 @@ public class ProtocolPCRV1  implements java.io.Serializable {
 
     /**
      * Sets the documentId value for this ProtocolPCRV1.
-     * 
+     *
      * @param documentId
      */
     public void setDocumentId(java.lang.String documentId) {
@@ -45,7 +45,7 @@ public class ProtocolPCRV1  implements java.io.Serializable {
 
     /**
      * Gets the statusInfo value for this ProtocolPCRV1.
-     * 
+     *
      * @return statusInfo
      */
     public pl.com.dpd.dpdservices.StatusInfoPCRV1 getStatusInfo() {
@@ -55,7 +55,7 @@ public class ProtocolPCRV1  implements java.io.Serializable {
 
     /**
      * Sets the statusInfo value for this ProtocolPCRV1.
-     * 
+     *
      * @param statusInfo
      */
     public void setStatusInfo(pl.com.dpd.dpdservices.StatusInfoPCRV1 statusInfo) {
@@ -63,6 +63,7 @@ public class ProtocolPCRV1  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof ProtocolPCRV1)) return false;
         ProtocolPCRV1 other = (ProtocolPCRV1) obj;
@@ -73,18 +74,19 @@ public class ProtocolPCRV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.documentId==null && other.getDocumentId()==null) || 
-             (this.documentId!=null &&
-              this.documentId.equals(other.getDocumentId()))) &&
-            ((this.statusInfo==null && other.getStatusInfo()==null) || 
-             (this.statusInfo!=null &&
-              this.statusInfo.equals(other.getStatusInfo())));
+        _equals = true &&
+                ((this.documentId == null && other.getDocumentId() == null) ||
+                        (this.documentId != null &&
+                                this.documentId.equals(other.getDocumentId()))) &&
+                ((this.statusInfo == null && other.getStatusInfo() == null) ||
+                        (this.statusInfo != null &&
+                                this.statusInfo.equals(other.getStatusInfo())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -103,7 +105,7 @@ public class ProtocolPCRV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(ProtocolPCRV1.class, true);
+            new org.apache.axis.description.TypeDesc(ProtocolPCRV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "protocolPCRV1"));
@@ -134,24 +136,24 @@ public class ProtocolPCRV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

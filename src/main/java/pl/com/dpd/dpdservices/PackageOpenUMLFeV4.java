@@ -1,13 +1,13 @@
 /**
  * PackageOpenUMLFeV4.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class PackageOpenUMLFeV4  implements java.io.Serializable {
+public class PackageOpenUMLFeV4 implements java.io.Serializable {
     private pl.com.dpd.dpdservices.ParcelOpenUMLFeV1[] parcels;
 
     private pl.com.dpd.dpdservices.PayerTypeEnumOpenUMLFeV1 payerType;
@@ -32,32 +32,32 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
     }
 
     public PackageOpenUMLFeV4(
-           pl.com.dpd.dpdservices.ParcelOpenUMLFeV1[] parcels,
-           pl.com.dpd.dpdservices.PayerTypeEnumOpenUMLFeV1 payerType,
-           pl.com.dpd.dpdservices.PackageAddressOpenUMLFeV1 receiver,
-           java.lang.String ref1,
-           java.lang.String ref2,
-           java.lang.String ref3,
-           java.lang.String reference,
-           pl.com.dpd.dpdservices.PackageAddressOpenUMLFeV1 sender,
-           pl.com.dpd.dpdservices.ServicesOpenUMLFeV5 services,
-           java.lang.Integer thirdPartyFID) {
-           this.parcels = parcels;
-           this.payerType = payerType;
-           this.receiver = receiver;
-           this.ref1 = ref1;
-           this.ref2 = ref2;
-           this.ref3 = ref3;
-           this.reference = reference;
-           this.sender = sender;
-           this.services = services;
-           this.thirdPartyFID = thirdPartyFID;
+            pl.com.dpd.dpdservices.ParcelOpenUMLFeV1[] parcels,
+            pl.com.dpd.dpdservices.PayerTypeEnumOpenUMLFeV1 payerType,
+            pl.com.dpd.dpdservices.PackageAddressOpenUMLFeV1 receiver,
+            java.lang.String ref1,
+            java.lang.String ref2,
+            java.lang.String ref3,
+            java.lang.String reference,
+            pl.com.dpd.dpdservices.PackageAddressOpenUMLFeV1 sender,
+            pl.com.dpd.dpdservices.ServicesOpenUMLFeV5 services,
+            java.lang.Integer thirdPartyFID) {
+        this.parcels = parcels;
+        this.payerType = payerType;
+        this.receiver = receiver;
+        this.ref1 = ref1;
+        this.ref2 = ref2;
+        this.ref3 = ref3;
+        this.reference = reference;
+        this.sender = sender;
+        this.services = services;
+        this.thirdPartyFID = thirdPartyFID;
     }
 
 
     /**
      * Gets the parcels value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return parcels
      */
     public pl.com.dpd.dpdservices.ParcelOpenUMLFeV1[] getParcels() {
@@ -67,7 +67,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the parcels value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param parcels
      */
     public void setParcels(pl.com.dpd.dpdservices.ParcelOpenUMLFeV1[] parcels) {
@@ -85,7 +85,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Gets the payerType value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return payerType
      */
     public pl.com.dpd.dpdservices.PayerTypeEnumOpenUMLFeV1 getPayerType() {
@@ -95,7 +95,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the payerType value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param payerType
      */
     public void setPayerType(pl.com.dpd.dpdservices.PayerTypeEnumOpenUMLFeV1 payerType) {
@@ -105,7 +105,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Gets the receiver value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return receiver
      */
     public pl.com.dpd.dpdservices.PackageAddressOpenUMLFeV1 getReceiver() {
@@ -115,7 +115,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the receiver value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param receiver
      */
     public void setReceiver(pl.com.dpd.dpdservices.PackageAddressOpenUMLFeV1 receiver) {
@@ -125,7 +125,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Gets the ref1 value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return ref1
      */
     public java.lang.String getRef1() {
@@ -135,7 +135,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the ref1 value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param ref1
      */
     public void setRef1(java.lang.String ref1) {
@@ -145,7 +145,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Gets the ref2 value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return ref2
      */
     public java.lang.String getRef2() {
@@ -155,7 +155,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the ref2 value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param ref2
      */
     public void setRef2(java.lang.String ref2) {
@@ -165,7 +165,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Gets the ref3 value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return ref3
      */
     public java.lang.String getRef3() {
@@ -175,7 +175,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the ref3 value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param ref3
      */
     public void setRef3(java.lang.String ref3) {
@@ -185,7 +185,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Gets the reference value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return reference
      */
     public java.lang.String getReference() {
@@ -195,7 +195,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the reference value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param reference
      */
     public void setReference(java.lang.String reference) {
@@ -205,7 +205,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Gets the sender value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return sender
      */
     public pl.com.dpd.dpdservices.PackageAddressOpenUMLFeV1 getSender() {
@@ -215,7 +215,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the sender value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param sender
      */
     public void setSender(pl.com.dpd.dpdservices.PackageAddressOpenUMLFeV1 sender) {
@@ -225,7 +225,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Gets the services value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return services
      */
     public pl.com.dpd.dpdservices.ServicesOpenUMLFeV5 getServices() {
@@ -235,7 +235,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the services value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param services
      */
     public void setServices(pl.com.dpd.dpdservices.ServicesOpenUMLFeV5 services) {
@@ -245,7 +245,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Gets the thirdPartyFID value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @return thirdPartyFID
      */
     public java.lang.Integer getThirdPartyFID() {
@@ -255,7 +255,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     /**
      * Sets the thirdPartyFID value for this PackageOpenUMLFeV4.
-     * 
+     *
      * @param thirdPartyFID
      */
     public void setThirdPartyFID(java.lang.Integer thirdPartyFID) {
@@ -263,6 +263,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof PackageOpenUMLFeV4)) return false;
         PackageOpenUMLFeV4 other = (PackageOpenUMLFeV4) obj;
@@ -273,42 +274,43 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.parcels==null && other.getParcels()==null) || 
-             (this.parcels!=null &&
-              java.util.Arrays.equals(this.parcels, other.getParcels()))) &&
-            ((this.payerType==null && other.getPayerType()==null) || 
-             (this.payerType!=null &&
-              this.payerType.equals(other.getPayerType()))) &&
-            ((this.receiver==null && other.getReceiver()==null) || 
-             (this.receiver!=null &&
-              this.receiver.equals(other.getReceiver()))) &&
-            ((this.ref1==null && other.getRef1()==null) || 
-             (this.ref1!=null &&
-              this.ref1.equals(other.getRef1()))) &&
-            ((this.ref2==null && other.getRef2()==null) || 
-             (this.ref2!=null &&
-              this.ref2.equals(other.getRef2()))) &&
-            ((this.ref3==null && other.getRef3()==null) || 
-             (this.ref3!=null &&
-              this.ref3.equals(other.getRef3()))) &&
-            ((this.reference==null && other.getReference()==null) || 
-             (this.reference!=null &&
-              this.reference.equals(other.getReference()))) &&
-            ((this.sender==null && other.getSender()==null) || 
-             (this.sender!=null &&
-              this.sender.equals(other.getSender()))) &&
-            ((this.services==null && other.getServices()==null) || 
-             (this.services!=null &&
-              this.services.equals(other.getServices()))) &&
-            ((this.thirdPartyFID==null && other.getThirdPartyFID()==null) || 
-             (this.thirdPartyFID!=null &&
-              this.thirdPartyFID.equals(other.getThirdPartyFID())));
+        _equals = true &&
+                ((this.parcels == null && other.getParcels() == null) ||
+                        (this.parcels != null &&
+                                java.util.Arrays.equals(this.parcels, other.getParcels()))) &&
+                ((this.payerType == null && other.getPayerType() == null) ||
+                        (this.payerType != null &&
+                                this.payerType.equals(other.getPayerType()))) &&
+                ((this.receiver == null && other.getReceiver() == null) ||
+                        (this.receiver != null &&
+                                this.receiver.equals(other.getReceiver()))) &&
+                ((this.ref1 == null && other.getRef1() == null) ||
+                        (this.ref1 != null &&
+                                this.ref1.equals(other.getRef1()))) &&
+                ((this.ref2 == null && other.getRef2() == null) ||
+                        (this.ref2 != null &&
+                                this.ref2.equals(other.getRef2()))) &&
+                ((this.ref3 == null && other.getRef3() == null) ||
+                        (this.ref3 != null &&
+                                this.ref3.equals(other.getRef3()))) &&
+                ((this.reference == null && other.getReference() == null) ||
+                        (this.reference != null &&
+                                this.reference.equals(other.getReference()))) &&
+                ((this.sender == null && other.getSender() == null) ||
+                        (this.sender != null &&
+                                this.sender.equals(other.getSender()))) &&
+                ((this.services == null && other.getServices() == null) ||
+                        (this.services != null &&
+                                this.services.equals(other.getServices()))) &&
+                ((this.thirdPartyFID == null && other.getThirdPartyFID() == null) ||
+                        (this.thirdPartyFID != null &&
+                                this.thirdPartyFID.equals(other.getThirdPartyFID())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -316,12 +318,12 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
         __hashCodeCalc = true;
         int _hashCode = 1;
         if (getParcels() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getParcels());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getParcels());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getParcels(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
@@ -359,7 +361,7 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(PackageOpenUMLFeV4.class, true);
+            new org.apache.axis.description.TypeDesc(PackageOpenUMLFeV4.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "packageOpenUMLFeV4"));
@@ -447,24 +449,24 @@ public class PackageOpenUMLFeV4  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

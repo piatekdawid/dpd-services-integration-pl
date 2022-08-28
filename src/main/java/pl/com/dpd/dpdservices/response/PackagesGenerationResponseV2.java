@@ -1,31 +1,32 @@
 /**
  * PackagesGenerationResponseV2.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
-package pl.com.dpd.dpdservices;
+package pl.com.dpd.dpdservices.response;
 
-public class PackagesGenerationResponseV2  extends pl.com.dpd.dpdservices.SessionPGRV2  implements java.io.Serializable {
+public class PackagesGenerationResponseV2 extends pl.com.dpd.dpdservices.SessionPGRV2 implements java.io.Serializable {
     public PackagesGenerationResponseV2() {
     }
 
     public PackagesGenerationResponseV2(
-           java.lang.String status,
-           java.lang.Long sessionId,
-           java.util.Calendar beginTime,
-           java.util.Calendar endTime,
-           pl.com.dpd.dpdservices.PackagePGRV2[] packages) {
+            java.lang.String status,
+            java.lang.Long sessionId,
+            java.util.Calendar beginTime,
+            java.util.Calendar endTime,
+            pl.com.dpd.dpdservices.PackagePGRV2[] packages) {
         super(
-            status,
-            sessionId,
-            beginTime,
-            endTime,
-            packages);
+                status,
+                sessionId,
+                beginTime,
+                endTime,
+                packages);
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof PackagesGenerationResponseV2)) return false;
         PackagesGenerationResponseV2 other = (PackagesGenerationResponseV2) obj;
@@ -42,6 +43,7 @@ public class PackagesGenerationResponseV2  extends pl.com.dpd.dpdservices.Sessio
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -54,7 +56,7 @@ public class PackagesGenerationResponseV2  extends pl.com.dpd.dpdservices.Sessio
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(PackagesGenerationResponseV2.class, true);
+            new org.apache.axis.description.TypeDesc(PackagesGenerationResponseV2.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "packagesGenerationResponseV2"));
@@ -71,24 +73,24 @@ public class PackagesGenerationResponseV2  extends pl.com.dpd.dpdservices.Sessio
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

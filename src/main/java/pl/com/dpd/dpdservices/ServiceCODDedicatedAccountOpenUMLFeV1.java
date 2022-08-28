@@ -1,35 +1,37 @@
 /**
  * ServiceCODDedicatedAccountOpenUMLFeV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class ServiceCODDedicatedAccountOpenUMLFeV1  implements java.io.Serializable {
+import pl.com.dpd.dpdservices.enums.ServiceCurrencyEnum;
+
+public class ServiceCODDedicatedAccountOpenUMLFeV1 implements java.io.Serializable {
     private java.lang.String accountNumber;
 
     private java.lang.String amount;
 
-    private pl.com.dpd.dpdservices.ServiceCurrencyEnum currency;
+    private ServiceCurrencyEnum currency;
 
     public ServiceCODDedicatedAccountOpenUMLFeV1() {
     }
 
     public ServiceCODDedicatedAccountOpenUMLFeV1(
-           java.lang.String accountNumber,
-           java.lang.String amount,
-           pl.com.dpd.dpdservices.ServiceCurrencyEnum currency) {
-           this.accountNumber = accountNumber;
-           this.amount = amount;
-           this.currency = currency;
+            java.lang.String accountNumber,
+            java.lang.String amount,
+            ServiceCurrencyEnum currency) {
+        this.accountNumber = accountNumber;
+        this.amount = amount;
+        this.currency = currency;
     }
 
 
     /**
      * Gets the accountNumber value for this ServiceCODDedicatedAccountOpenUMLFeV1.
-     * 
+     *
      * @return accountNumber
      */
     public java.lang.String getAccountNumber() {
@@ -39,7 +41,7 @@ public class ServiceCODDedicatedAccountOpenUMLFeV1  implements java.io.Serializa
 
     /**
      * Sets the accountNumber value for this ServiceCODDedicatedAccountOpenUMLFeV1.
-     * 
+     *
      * @param accountNumber
      */
     public void setAccountNumber(java.lang.String accountNumber) {
@@ -49,7 +51,7 @@ public class ServiceCODDedicatedAccountOpenUMLFeV1  implements java.io.Serializa
 
     /**
      * Gets the amount value for this ServiceCODDedicatedAccountOpenUMLFeV1.
-     * 
+     *
      * @return amount
      */
     public java.lang.String getAmount() {
@@ -59,7 +61,7 @@ public class ServiceCODDedicatedAccountOpenUMLFeV1  implements java.io.Serializa
 
     /**
      * Sets the amount value for this ServiceCODDedicatedAccountOpenUMLFeV1.
-     * 
+     *
      * @param amount
      */
     public void setAmount(java.lang.String amount) {
@@ -69,24 +71,25 @@ public class ServiceCODDedicatedAccountOpenUMLFeV1  implements java.io.Serializa
 
     /**
      * Gets the currency value for this ServiceCODDedicatedAccountOpenUMLFeV1.
-     * 
+     *
      * @return currency
      */
-    public pl.com.dpd.dpdservices.ServiceCurrencyEnum getCurrency() {
+    public ServiceCurrencyEnum getCurrency() {
         return currency;
     }
 
 
     /**
      * Sets the currency value for this ServiceCODDedicatedAccountOpenUMLFeV1.
-     * 
+     *
      * @param currency
      */
-    public void setCurrency(pl.com.dpd.dpdservices.ServiceCurrencyEnum currency) {
+    public void setCurrency(ServiceCurrencyEnum currency) {
         this.currency = currency;
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof ServiceCODDedicatedAccountOpenUMLFeV1)) return false;
         ServiceCODDedicatedAccountOpenUMLFeV1 other = (ServiceCODDedicatedAccountOpenUMLFeV1) obj;
@@ -97,21 +100,22 @@ public class ServiceCODDedicatedAccountOpenUMLFeV1  implements java.io.Serializa
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.accountNumber==null && other.getAccountNumber()==null) || 
-             (this.accountNumber!=null &&
-              this.accountNumber.equals(other.getAccountNumber()))) &&
-            ((this.amount==null && other.getAmount()==null) || 
-             (this.amount!=null &&
-              this.amount.equals(other.getAmount()))) &&
-            ((this.currency==null && other.getCurrency()==null) || 
-             (this.currency!=null &&
-              this.currency.equals(other.getCurrency())));
+        _equals = true &&
+                ((this.accountNumber == null && other.getAccountNumber() == null) ||
+                        (this.accountNumber != null &&
+                                this.accountNumber.equals(other.getAccountNumber()))) &&
+                ((this.amount == null && other.getAmount() == null) ||
+                        (this.amount != null &&
+                                this.amount.equals(other.getAmount()))) &&
+                ((this.currency == null && other.getCurrency() == null) ||
+                        (this.currency != null &&
+                                this.currency.equals(other.getCurrency())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -133,7 +137,7 @@ public class ServiceCODDedicatedAccountOpenUMLFeV1  implements java.io.Serializa
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(ServiceCODDedicatedAccountOpenUMLFeV1.class, true);
+            new org.apache.axis.description.TypeDesc(ServiceCODDedicatedAccountOpenUMLFeV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "serviceCODDedicatedAccountOpenUMLFeV1"));
@@ -171,24 +175,24 @@ public class ServiceCODDedicatedAccountOpenUMLFeV1  implements java.io.Serializa
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

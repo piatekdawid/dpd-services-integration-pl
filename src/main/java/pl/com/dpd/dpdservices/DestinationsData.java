@@ -1,13 +1,13 @@
 /**
  * DestinationsData.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class DestinationsData  implements java.io.Serializable {
+public class DestinationsData implements java.io.Serializable {
     private java.lang.String destinationName;
 
     private java.lang.String documentId;
@@ -18,18 +18,18 @@ public class DestinationsData  implements java.io.Serializable {
     }
 
     public DestinationsData(
-           java.lang.String destinationName,
-           java.lang.String documentId,
-           java.lang.Boolean domestic) {
-           this.destinationName = destinationName;
-           this.documentId = documentId;
-           this.domestic = domestic;
+            java.lang.String destinationName,
+            java.lang.String documentId,
+            java.lang.Boolean domestic) {
+        this.destinationName = destinationName;
+        this.documentId = documentId;
+        this.domestic = domestic;
     }
 
 
     /**
      * Gets the destinationName value for this DestinationsData.
-     * 
+     *
      * @return destinationName
      */
     public java.lang.String getDestinationName() {
@@ -39,7 +39,7 @@ public class DestinationsData  implements java.io.Serializable {
 
     /**
      * Sets the destinationName value for this DestinationsData.
-     * 
+     *
      * @param destinationName
      */
     public void setDestinationName(java.lang.String destinationName) {
@@ -49,7 +49,7 @@ public class DestinationsData  implements java.io.Serializable {
 
     /**
      * Gets the documentId value for this DestinationsData.
-     * 
+     *
      * @return documentId
      */
     public java.lang.String getDocumentId() {
@@ -59,7 +59,7 @@ public class DestinationsData  implements java.io.Serializable {
 
     /**
      * Sets the documentId value for this DestinationsData.
-     * 
+     *
      * @param documentId
      */
     public void setDocumentId(java.lang.String documentId) {
@@ -69,7 +69,7 @@ public class DestinationsData  implements java.io.Serializable {
 
     /**
      * Gets the domestic value for this DestinationsData.
-     * 
+     *
      * @return domestic
      */
     public java.lang.Boolean getDomestic() {
@@ -79,7 +79,7 @@ public class DestinationsData  implements java.io.Serializable {
 
     /**
      * Sets the domestic value for this DestinationsData.
-     * 
+     *
      * @param domestic
      */
     public void setDomestic(java.lang.Boolean domestic) {
@@ -87,6 +87,7 @@ public class DestinationsData  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof DestinationsData)) return false;
         DestinationsData other = (DestinationsData) obj;
@@ -97,21 +98,22 @@ public class DestinationsData  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.destinationName==null && other.getDestinationName()==null) || 
-             (this.destinationName!=null &&
-              this.destinationName.equals(other.getDestinationName()))) &&
-            ((this.documentId==null && other.getDocumentId()==null) || 
-             (this.documentId!=null &&
-              this.documentId.equals(other.getDocumentId()))) &&
-            ((this.domestic==null && other.getDomestic()==null) || 
-             (this.domestic!=null &&
-              this.domestic.equals(other.getDomestic())));
+        _equals = true &&
+                ((this.destinationName == null && other.getDestinationName() == null) ||
+                        (this.destinationName != null &&
+                                this.destinationName.equals(other.getDestinationName()))) &&
+                ((this.documentId == null && other.getDocumentId() == null) ||
+                        (this.documentId != null &&
+                                this.documentId.equals(other.getDocumentId()))) &&
+                ((this.domestic == null && other.getDomestic() == null) ||
+                        (this.domestic != null &&
+                                this.domestic.equals(other.getDomestic())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -133,7 +135,7 @@ public class DestinationsData  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(DestinationsData.class, true);
+            new org.apache.axis.description.TypeDesc(DestinationsData.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "destinationsData"));
@@ -171,24 +173,24 @@ public class DestinationsData  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

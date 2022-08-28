@@ -1,13 +1,13 @@
 /**
  * PackagePGRV2.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class PackagePGRV2  implements java.io.Serializable {
+public class PackagePGRV2 implements java.io.Serializable {
     private java.lang.String status;
 
     private java.lang.Long packageId;
@@ -22,22 +22,22 @@ public class PackagePGRV2  implements java.io.Serializable {
     }
 
     public PackagePGRV2(
-           java.lang.String status,
-           java.lang.Long packageId,
-           java.lang.String reference,
-           pl.com.dpd.dpdservices.ValidationInfoPGRV2[] validationDetails,
-           pl.com.dpd.dpdservices.ParcelPGRV2[] parcels) {
-           this.status = status;
-           this.packageId = packageId;
-           this.reference = reference;
-           this.validationDetails = validationDetails;
-           this.parcels = parcels;
+            java.lang.String status,
+            java.lang.Long packageId,
+            java.lang.String reference,
+            pl.com.dpd.dpdservices.ValidationInfoPGRV2[] validationDetails,
+            pl.com.dpd.dpdservices.ParcelPGRV2[] parcels) {
+        this.status = status;
+        this.packageId = packageId;
+        this.reference = reference;
+        this.validationDetails = validationDetails;
+        this.parcels = parcels;
     }
 
 
     /**
      * Gets the status value for this PackagePGRV2.
-     * 
+     *
      * @return status
      */
     public java.lang.String getStatus() {
@@ -47,7 +47,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     /**
      * Sets the status value for this PackagePGRV2.
-     * 
+     *
      * @param status
      */
     public void setStatus(java.lang.String status) {
@@ -57,7 +57,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     /**
      * Gets the packageId value for this PackagePGRV2.
-     * 
+     *
      * @return packageId
      */
     public java.lang.Long getPackageId() {
@@ -67,7 +67,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     /**
      * Sets the packageId value for this PackagePGRV2.
-     * 
+     *
      * @param packageId
      */
     public void setPackageId(java.lang.Long packageId) {
@@ -77,7 +77,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     /**
      * Gets the reference value for this PackagePGRV2.
-     * 
+     *
      * @return reference
      */
     public java.lang.String getReference() {
@@ -87,7 +87,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     /**
      * Sets the reference value for this PackagePGRV2.
-     * 
+     *
      * @param reference
      */
     public void setReference(java.lang.String reference) {
@@ -97,7 +97,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     /**
      * Gets the validationDetails value for this PackagePGRV2.
-     * 
+     *
      * @return validationDetails
      */
     public pl.com.dpd.dpdservices.ValidationInfoPGRV2[] getValidationDetails() {
@@ -107,7 +107,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     /**
      * Sets the validationDetails value for this PackagePGRV2.
-     * 
+     *
      * @param validationDetails
      */
     public void setValidationDetails(pl.com.dpd.dpdservices.ValidationInfoPGRV2[] validationDetails) {
@@ -117,7 +117,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     /**
      * Gets the parcels value for this PackagePGRV2.
-     * 
+     *
      * @return parcels
      */
     public pl.com.dpd.dpdservices.ParcelPGRV2[] getParcels() {
@@ -127,7 +127,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     /**
      * Sets the parcels value for this PackagePGRV2.
-     * 
+     *
      * @param parcels
      */
     public void setParcels(pl.com.dpd.dpdservices.ParcelPGRV2[] parcels) {
@@ -135,6 +135,7 @@ public class PackagePGRV2  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof PackagePGRV2)) return false;
         PackagePGRV2 other = (PackagePGRV2) obj;
@@ -145,27 +146,28 @@ public class PackagePGRV2  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.status==null && other.getStatus()==null) || 
-             (this.status!=null &&
-              this.status.equals(other.getStatus()))) &&
-            ((this.packageId==null && other.getPackageId()==null) || 
-             (this.packageId!=null &&
-              this.packageId.equals(other.getPackageId()))) &&
-            ((this.reference==null && other.getReference()==null) || 
-             (this.reference!=null &&
-              this.reference.equals(other.getReference()))) &&
-            ((this.validationDetails==null && other.getValidationDetails()==null) || 
-             (this.validationDetails!=null &&
-              java.util.Arrays.equals(this.validationDetails, other.getValidationDetails()))) &&
-            ((this.parcels==null && other.getParcels()==null) || 
-             (this.parcels!=null &&
-              java.util.Arrays.equals(this.parcels, other.getParcels())));
+        _equals = true &&
+                ((this.status == null && other.getStatus() == null) ||
+                        (this.status != null &&
+                                this.status.equals(other.getStatus()))) &&
+                ((this.packageId == null && other.getPackageId() == null) ||
+                        (this.packageId != null &&
+                                this.packageId.equals(other.getPackageId()))) &&
+                ((this.reference == null && other.getReference() == null) ||
+                        (this.reference != null &&
+                                this.reference.equals(other.getReference()))) &&
+                ((this.validationDetails == null && other.getValidationDetails() == null) ||
+                        (this.validationDetails != null &&
+                                java.util.Arrays.equals(this.validationDetails, other.getValidationDetails()))) &&
+                ((this.parcels == null && other.getParcels() == null) ||
+                        (this.parcels != null &&
+                                java.util.Arrays.equals(this.parcels, other.getParcels())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -182,23 +184,23 @@ public class PackagePGRV2  implements java.io.Serializable {
             _hashCode += getReference().hashCode();
         }
         if (getValidationDetails() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getValidationDetails());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getValidationDetails());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getValidationDetails(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
         }
         if (getParcels() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getParcels());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getParcels());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getParcels(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
@@ -209,7 +211,7 @@ public class PackagePGRV2  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(PackagePGRV2.class, true);
+            new org.apache.axis.description.TypeDesc(PackagePGRV2.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "packagePGRV2"));
@@ -263,24 +265,24 @@ public class PackagePGRV2  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

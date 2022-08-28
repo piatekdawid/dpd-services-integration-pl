@@ -1,20 +1,24 @@
 /**
  * DpdPickupCallParamsV3.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class DpdPickupCallParamsV3  implements java.io.Serializable {
+import pl.com.dpd.dpdservices.enums.PickupCallOperationTypeDPPEnumV1;
+import pl.com.dpd.dpdservices.enums.PickupCallOrderTypeDPPEnumV1;
+import pl.com.dpd.dpdservices.enums.PickupCallUpdateModeDPPEnumV1;
+
+public class DpdPickupCallParamsV3 implements java.io.Serializable {
     private java.lang.Integer checkSum;
 
-    private pl.com.dpd.dpdservices.PickupCallOperationTypeDPPEnumV1 operationType;
+    private PickupCallOperationTypeDPPEnumV1 operationType;
 
     private java.lang.String orderNumber;
 
-    private pl.com.dpd.dpdservices.PickupCallOrderTypeDPPEnumV1 orderType;
+    private PickupCallOrderTypeDPPEnumV1 orderType;
 
     private pl.com.dpd.dpdservices.PickupCallSimplifiedDetailsDPPV1 pickupCallSimplifiedDetails;
 
@@ -24,7 +28,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     private java.lang.String pickupTimeTo;
 
-    private pl.com.dpd.dpdservices.PickupCallUpdateModeDPPEnumV1 updateMode;
+    private PickupCallUpdateModeDPPEnumV1 updateMode;
 
     private java.lang.Boolean waybillsReady;
 
@@ -32,32 +36,32 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
     }
 
     public DpdPickupCallParamsV3(
-           java.lang.Integer checkSum,
-           pl.com.dpd.dpdservices.PickupCallOperationTypeDPPEnumV1 operationType,
-           java.lang.String orderNumber,
-           pl.com.dpd.dpdservices.PickupCallOrderTypeDPPEnumV1 orderType,
-           pl.com.dpd.dpdservices.PickupCallSimplifiedDetailsDPPV1 pickupCallSimplifiedDetails,
-           java.lang.String pickupDate,
-           java.lang.String pickupTimeFrom,
-           java.lang.String pickupTimeTo,
-           pl.com.dpd.dpdservices.PickupCallUpdateModeDPPEnumV1 updateMode,
-           java.lang.Boolean waybillsReady) {
-           this.checkSum = checkSum;
-           this.operationType = operationType;
-           this.orderNumber = orderNumber;
-           this.orderType = orderType;
-           this.pickupCallSimplifiedDetails = pickupCallSimplifiedDetails;
-           this.pickupDate = pickupDate;
-           this.pickupTimeFrom = pickupTimeFrom;
-           this.pickupTimeTo = pickupTimeTo;
-           this.updateMode = updateMode;
-           this.waybillsReady = waybillsReady;
+            java.lang.Integer checkSum,
+            PickupCallOperationTypeDPPEnumV1 operationType,
+            java.lang.String orderNumber,
+            PickupCallOrderTypeDPPEnumV1 orderType,
+            pl.com.dpd.dpdservices.PickupCallSimplifiedDetailsDPPV1 pickupCallSimplifiedDetails,
+            java.lang.String pickupDate,
+            java.lang.String pickupTimeFrom,
+            java.lang.String pickupTimeTo,
+            PickupCallUpdateModeDPPEnumV1 updateMode,
+            java.lang.Boolean waybillsReady) {
+        this.checkSum = checkSum;
+        this.operationType = operationType;
+        this.orderNumber = orderNumber;
+        this.orderType = orderType;
+        this.pickupCallSimplifiedDetails = pickupCallSimplifiedDetails;
+        this.pickupDate = pickupDate;
+        this.pickupTimeFrom = pickupTimeFrom;
+        this.pickupTimeTo = pickupTimeTo;
+        this.updateMode = updateMode;
+        this.waybillsReady = waybillsReady;
     }
 
 
     /**
      * Gets the checkSum value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return checkSum
      */
     public java.lang.Integer getCheckSum() {
@@ -67,7 +71,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Sets the checkSum value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param checkSum
      */
     public void setCheckSum(java.lang.Integer checkSum) {
@@ -77,27 +81,27 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Gets the operationType value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return operationType
      */
-    public pl.com.dpd.dpdservices.PickupCallOperationTypeDPPEnumV1 getOperationType() {
+    public PickupCallOperationTypeDPPEnumV1 getOperationType() {
         return operationType;
     }
 
 
     /**
      * Sets the operationType value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param operationType
      */
-    public void setOperationType(pl.com.dpd.dpdservices.PickupCallOperationTypeDPPEnumV1 operationType) {
+    public void setOperationType(PickupCallOperationTypeDPPEnumV1 operationType) {
         this.operationType = operationType;
     }
 
 
     /**
      * Gets the orderNumber value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return orderNumber
      */
     public java.lang.String getOrderNumber() {
@@ -107,7 +111,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Sets the orderNumber value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param orderNumber
      */
     public void setOrderNumber(java.lang.String orderNumber) {
@@ -117,27 +121,27 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Gets the orderType value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return orderType
      */
-    public pl.com.dpd.dpdservices.PickupCallOrderTypeDPPEnumV1 getOrderType() {
+    public PickupCallOrderTypeDPPEnumV1 getOrderType() {
         return orderType;
     }
 
 
     /**
      * Sets the orderType value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param orderType
      */
-    public void setOrderType(pl.com.dpd.dpdservices.PickupCallOrderTypeDPPEnumV1 orderType) {
+    public void setOrderType(PickupCallOrderTypeDPPEnumV1 orderType) {
         this.orderType = orderType;
     }
 
 
     /**
      * Gets the pickupCallSimplifiedDetails value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return pickupCallSimplifiedDetails
      */
     public pl.com.dpd.dpdservices.PickupCallSimplifiedDetailsDPPV1 getPickupCallSimplifiedDetails() {
@@ -147,7 +151,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Sets the pickupCallSimplifiedDetails value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param pickupCallSimplifiedDetails
      */
     public void setPickupCallSimplifiedDetails(pl.com.dpd.dpdservices.PickupCallSimplifiedDetailsDPPV1 pickupCallSimplifiedDetails) {
@@ -157,7 +161,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Gets the pickupDate value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return pickupDate
      */
     public java.lang.String getPickupDate() {
@@ -167,7 +171,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Sets the pickupDate value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param pickupDate
      */
     public void setPickupDate(java.lang.String pickupDate) {
@@ -177,7 +181,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Gets the pickupTimeFrom value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return pickupTimeFrom
      */
     public java.lang.String getPickupTimeFrom() {
@@ -187,7 +191,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Sets the pickupTimeFrom value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param pickupTimeFrom
      */
     public void setPickupTimeFrom(java.lang.String pickupTimeFrom) {
@@ -197,7 +201,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Gets the pickupTimeTo value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return pickupTimeTo
      */
     public java.lang.String getPickupTimeTo() {
@@ -207,7 +211,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Sets the pickupTimeTo value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param pickupTimeTo
      */
     public void setPickupTimeTo(java.lang.String pickupTimeTo) {
@@ -217,27 +221,27 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Gets the updateMode value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return updateMode
      */
-    public pl.com.dpd.dpdservices.PickupCallUpdateModeDPPEnumV1 getUpdateMode() {
+    public PickupCallUpdateModeDPPEnumV1 getUpdateMode() {
         return updateMode;
     }
 
 
     /**
      * Sets the updateMode value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param updateMode
      */
-    public void setUpdateMode(pl.com.dpd.dpdservices.PickupCallUpdateModeDPPEnumV1 updateMode) {
+    public void setUpdateMode(PickupCallUpdateModeDPPEnumV1 updateMode) {
         this.updateMode = updateMode;
     }
 
 
     /**
      * Gets the waybillsReady value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @return waybillsReady
      */
     public java.lang.Boolean getWaybillsReady() {
@@ -247,7 +251,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     /**
      * Sets the waybillsReady value for this DpdPickupCallParamsV3.
-     * 
+     *
      * @param waybillsReady
      */
     public void setWaybillsReady(java.lang.Boolean waybillsReady) {
@@ -255,6 +259,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof DpdPickupCallParamsV3)) return false;
         DpdPickupCallParamsV3 other = (DpdPickupCallParamsV3) obj;
@@ -265,42 +270,43 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.checkSum==null && other.getCheckSum()==null) || 
-             (this.checkSum!=null &&
-              this.checkSum.equals(other.getCheckSum()))) &&
-            ((this.operationType==null && other.getOperationType()==null) || 
-             (this.operationType!=null &&
-              this.operationType.equals(other.getOperationType()))) &&
-            ((this.orderNumber==null && other.getOrderNumber()==null) || 
-             (this.orderNumber!=null &&
-              this.orderNumber.equals(other.getOrderNumber()))) &&
-            ((this.orderType==null && other.getOrderType()==null) || 
-             (this.orderType!=null &&
-              this.orderType.equals(other.getOrderType()))) &&
-            ((this.pickupCallSimplifiedDetails==null && other.getPickupCallSimplifiedDetails()==null) || 
-             (this.pickupCallSimplifiedDetails!=null &&
-              this.pickupCallSimplifiedDetails.equals(other.getPickupCallSimplifiedDetails()))) &&
-            ((this.pickupDate==null && other.getPickupDate()==null) || 
-             (this.pickupDate!=null &&
-              this.pickupDate.equals(other.getPickupDate()))) &&
-            ((this.pickupTimeFrom==null && other.getPickupTimeFrom()==null) || 
-             (this.pickupTimeFrom!=null &&
-              this.pickupTimeFrom.equals(other.getPickupTimeFrom()))) &&
-            ((this.pickupTimeTo==null && other.getPickupTimeTo()==null) || 
-             (this.pickupTimeTo!=null &&
-              this.pickupTimeTo.equals(other.getPickupTimeTo()))) &&
-            ((this.updateMode==null && other.getUpdateMode()==null) || 
-             (this.updateMode!=null &&
-              this.updateMode.equals(other.getUpdateMode()))) &&
-            ((this.waybillsReady==null && other.getWaybillsReady()==null) || 
-             (this.waybillsReady!=null &&
-              this.waybillsReady.equals(other.getWaybillsReady())));
+        _equals = true &&
+                ((this.checkSum == null && other.getCheckSum() == null) ||
+                        (this.checkSum != null &&
+                                this.checkSum.equals(other.getCheckSum()))) &&
+                ((this.operationType == null && other.getOperationType() == null) ||
+                        (this.operationType != null &&
+                                this.operationType.equals(other.getOperationType()))) &&
+                ((this.orderNumber == null && other.getOrderNumber() == null) ||
+                        (this.orderNumber != null &&
+                                this.orderNumber.equals(other.getOrderNumber()))) &&
+                ((this.orderType == null && other.getOrderType() == null) ||
+                        (this.orderType != null &&
+                                this.orderType.equals(other.getOrderType()))) &&
+                ((this.pickupCallSimplifiedDetails == null && other.getPickupCallSimplifiedDetails() == null) ||
+                        (this.pickupCallSimplifiedDetails != null &&
+                                this.pickupCallSimplifiedDetails.equals(other.getPickupCallSimplifiedDetails()))) &&
+                ((this.pickupDate == null && other.getPickupDate() == null) ||
+                        (this.pickupDate != null &&
+                                this.pickupDate.equals(other.getPickupDate()))) &&
+                ((this.pickupTimeFrom == null && other.getPickupTimeFrom() == null) ||
+                        (this.pickupTimeFrom != null &&
+                                this.pickupTimeFrom.equals(other.getPickupTimeFrom()))) &&
+                ((this.pickupTimeTo == null && other.getPickupTimeTo() == null) ||
+                        (this.pickupTimeTo != null &&
+                                this.pickupTimeTo.equals(other.getPickupTimeTo()))) &&
+                ((this.updateMode == null && other.getUpdateMode() == null) ||
+                        (this.updateMode != null &&
+                                this.updateMode.equals(other.getUpdateMode()))) &&
+                ((this.waybillsReady == null && other.getWaybillsReady() == null) ||
+                        (this.waybillsReady != null &&
+                                this.waybillsReady.equals(other.getWaybillsReady())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -343,7 +349,7 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(DpdPickupCallParamsV3.class, true);
+            new org.apache.axis.description.TypeDesc(DpdPickupCallParamsV3.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "dpdPickupCallParamsV3"));
@@ -430,24 +436,24 @@ public class DpdPickupCallParamsV3  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

@@ -1,13 +1,13 @@
 /**
  * ParcelOpenUMLFeV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class ParcelOpenUMLFeV1  implements java.io.Serializable {
+public class ParcelOpenUMLFeV1 implements java.io.Serializable {
     private java.lang.String reference;
 
     private java.lang.String weight;
@@ -30,30 +30,30 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
     }
 
     public ParcelOpenUMLFeV1(
-           java.lang.String reference,
-           java.lang.String weight,
-           java.lang.String sizeX,
-           java.lang.String sizeY,
-           java.lang.String sizeZ,
-           java.lang.String content,
-           java.lang.String customerData1,
-           java.lang.String customerData2,
-           java.lang.String customerData3) {
-           this.reference = reference;
-           this.weight = weight;
-           this.sizeX = sizeX;
-           this.sizeY = sizeY;
-           this.sizeZ = sizeZ;
-           this.content = content;
-           this.customerData1 = customerData1;
-           this.customerData2 = customerData2;
-           this.customerData3 = customerData3;
+            java.lang.String reference,
+            java.lang.String weight,
+            java.lang.String sizeX,
+            java.lang.String sizeY,
+            java.lang.String sizeZ,
+            java.lang.String content,
+            java.lang.String customerData1,
+            java.lang.String customerData2,
+            java.lang.String customerData3) {
+        this.reference = reference;
+        this.weight = weight;
+        this.sizeX = sizeX;
+        this.sizeY = sizeY;
+        this.sizeZ = sizeZ;
+        this.content = content;
+        this.customerData1 = customerData1;
+        this.customerData2 = customerData2;
+        this.customerData3 = customerData3;
     }
 
 
     /**
      * Gets the reference value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @return reference
      */
     public java.lang.String getReference() {
@@ -63,7 +63,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the reference value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @param reference
      */
     public void setReference(java.lang.String reference) {
@@ -73,7 +73,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Gets the weight value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @return weight
      */
     public java.lang.String getWeight() {
@@ -83,7 +83,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the weight value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @param weight
      */
     public void setWeight(java.lang.String weight) {
@@ -93,7 +93,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Gets the sizeX value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @return sizeX
      */
     public java.lang.String getSizeX() {
@@ -103,7 +103,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the sizeX value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @param sizeX
      */
     public void setSizeX(java.lang.String sizeX) {
@@ -113,7 +113,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Gets the sizeY value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @return sizeY
      */
     public java.lang.String getSizeY() {
@@ -123,7 +123,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the sizeY value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @param sizeY
      */
     public void setSizeY(java.lang.String sizeY) {
@@ -133,7 +133,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Gets the sizeZ value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @return sizeZ
      */
     public java.lang.String getSizeZ() {
@@ -143,7 +143,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the sizeZ value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @param sizeZ
      */
     public void setSizeZ(java.lang.String sizeZ) {
@@ -153,7 +153,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Gets the content value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @return content
      */
     public java.lang.String getContent() {
@@ -163,7 +163,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the content value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @param content
      */
     public void setContent(java.lang.String content) {
@@ -173,7 +173,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Gets the customerData1 value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @return customerData1
      */
     public java.lang.String getCustomerData1() {
@@ -183,7 +183,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the customerData1 value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @param customerData1
      */
     public void setCustomerData1(java.lang.String customerData1) {
@@ -193,7 +193,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Gets the customerData2 value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @return customerData2
      */
     public java.lang.String getCustomerData2() {
@@ -203,7 +203,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the customerData2 value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @param customerData2
      */
     public void setCustomerData2(java.lang.String customerData2) {
@@ -213,7 +213,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Gets the customerData3 value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @return customerData3
      */
     public java.lang.String getCustomerData3() {
@@ -223,7 +223,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the customerData3 value for this ParcelOpenUMLFeV1.
-     * 
+     *
      * @param customerData3
      */
     public void setCustomerData3(java.lang.String customerData3) {
@@ -231,6 +231,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof ParcelOpenUMLFeV1)) return false;
         ParcelOpenUMLFeV1 other = (ParcelOpenUMLFeV1) obj;
@@ -241,39 +242,40 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.reference==null && other.getReference()==null) || 
-             (this.reference!=null &&
-              this.reference.equals(other.getReference()))) &&
-            ((this.weight==null && other.getWeight()==null) || 
-             (this.weight!=null &&
-              this.weight.equals(other.getWeight()))) &&
-            ((this.sizeX==null && other.getSizeX()==null) || 
-             (this.sizeX!=null &&
-              this.sizeX.equals(other.getSizeX()))) &&
-            ((this.sizeY==null && other.getSizeY()==null) || 
-             (this.sizeY!=null &&
-              this.sizeY.equals(other.getSizeY()))) &&
-            ((this.sizeZ==null && other.getSizeZ()==null) || 
-             (this.sizeZ!=null &&
-              this.sizeZ.equals(other.getSizeZ()))) &&
-            ((this.content==null && other.getContent()==null) || 
-             (this.content!=null &&
-              this.content.equals(other.getContent()))) &&
-            ((this.customerData1==null && other.getCustomerData1()==null) || 
-             (this.customerData1!=null &&
-              this.customerData1.equals(other.getCustomerData1()))) &&
-            ((this.customerData2==null && other.getCustomerData2()==null) || 
-             (this.customerData2!=null &&
-              this.customerData2.equals(other.getCustomerData2()))) &&
-            ((this.customerData3==null && other.getCustomerData3()==null) || 
-             (this.customerData3!=null &&
-              this.customerData3.equals(other.getCustomerData3())));
+        _equals = true &&
+                ((this.reference == null && other.getReference() == null) ||
+                        (this.reference != null &&
+                                this.reference.equals(other.getReference()))) &&
+                ((this.weight == null && other.getWeight() == null) ||
+                        (this.weight != null &&
+                                this.weight.equals(other.getWeight()))) &&
+                ((this.sizeX == null && other.getSizeX() == null) ||
+                        (this.sizeX != null &&
+                                this.sizeX.equals(other.getSizeX()))) &&
+                ((this.sizeY == null && other.getSizeY() == null) ||
+                        (this.sizeY != null &&
+                                this.sizeY.equals(other.getSizeY()))) &&
+                ((this.sizeZ == null && other.getSizeZ() == null) ||
+                        (this.sizeZ != null &&
+                                this.sizeZ.equals(other.getSizeZ()))) &&
+                ((this.content == null && other.getContent() == null) ||
+                        (this.content != null &&
+                                this.content.equals(other.getContent()))) &&
+                ((this.customerData1 == null && other.getCustomerData1() == null) ||
+                        (this.customerData1 != null &&
+                                this.customerData1.equals(other.getCustomerData1()))) &&
+                ((this.customerData2 == null && other.getCustomerData2() == null) ||
+                        (this.customerData2 != null &&
+                                this.customerData2.equals(other.getCustomerData2()))) &&
+                ((this.customerData3 == null && other.getCustomerData3() == null) ||
+                        (this.customerData3 != null &&
+                                this.customerData3.equals(other.getCustomerData3())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -313,7 +315,7 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(ParcelOpenUMLFeV1.class, true);
+            new org.apache.axis.description.TypeDesc(ParcelOpenUMLFeV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "parcelOpenUMLFeV1"));
@@ -393,24 +395,24 @@ public class ParcelOpenUMLFeV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

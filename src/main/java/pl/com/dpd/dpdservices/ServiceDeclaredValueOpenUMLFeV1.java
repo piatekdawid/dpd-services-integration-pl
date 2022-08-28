@@ -1,31 +1,33 @@
 /**
  * ServiceDeclaredValueOpenUMLFeV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class ServiceDeclaredValueOpenUMLFeV1  implements java.io.Serializable {
+import pl.com.dpd.dpdservices.enums.ServiceCurrencyEnum;
+
+public class ServiceDeclaredValueOpenUMLFeV1 implements java.io.Serializable {
     private java.lang.String amount;
 
-    private pl.com.dpd.dpdservices.ServiceCurrencyEnum currency;
+    private ServiceCurrencyEnum currency;
 
     public ServiceDeclaredValueOpenUMLFeV1() {
     }
 
     public ServiceDeclaredValueOpenUMLFeV1(
-           java.lang.String amount,
-           pl.com.dpd.dpdservices.ServiceCurrencyEnum currency) {
-           this.amount = amount;
-           this.currency = currency;
+            java.lang.String amount,
+            ServiceCurrencyEnum currency) {
+        this.amount = amount;
+        this.currency = currency;
     }
 
 
     /**
      * Gets the amount value for this ServiceDeclaredValueOpenUMLFeV1.
-     * 
+     *
      * @return amount
      */
     public java.lang.String getAmount() {
@@ -35,7 +37,7 @@ public class ServiceDeclaredValueOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Sets the amount value for this ServiceDeclaredValueOpenUMLFeV1.
-     * 
+     *
      * @param amount
      */
     public void setAmount(java.lang.String amount) {
@@ -45,24 +47,25 @@ public class ServiceDeclaredValueOpenUMLFeV1  implements java.io.Serializable {
 
     /**
      * Gets the currency value for this ServiceDeclaredValueOpenUMLFeV1.
-     * 
+     *
      * @return currency
      */
-    public pl.com.dpd.dpdservices.ServiceCurrencyEnum getCurrency() {
+    public ServiceCurrencyEnum getCurrency() {
         return currency;
     }
 
 
     /**
      * Sets the currency value for this ServiceDeclaredValueOpenUMLFeV1.
-     * 
+     *
      * @param currency
      */
-    public void setCurrency(pl.com.dpd.dpdservices.ServiceCurrencyEnum currency) {
+    public void setCurrency(ServiceCurrencyEnum currency) {
         this.currency = currency;
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof ServiceDeclaredValueOpenUMLFeV1)) return false;
         ServiceDeclaredValueOpenUMLFeV1 other = (ServiceDeclaredValueOpenUMLFeV1) obj;
@@ -73,18 +76,19 @@ public class ServiceDeclaredValueOpenUMLFeV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.amount==null && other.getAmount()==null) || 
-             (this.amount!=null &&
-              this.amount.equals(other.getAmount()))) &&
-            ((this.currency==null && other.getCurrency()==null) || 
-             (this.currency!=null &&
-              this.currency.equals(other.getCurrency())));
+        _equals = true &&
+                ((this.amount == null && other.getAmount() == null) ||
+                        (this.amount != null &&
+                                this.amount.equals(other.getAmount()))) &&
+                ((this.currency == null && other.getCurrency() == null) ||
+                        (this.currency != null &&
+                                this.currency.equals(other.getCurrency())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -103,7 +107,7 @@ public class ServiceDeclaredValueOpenUMLFeV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(ServiceDeclaredValueOpenUMLFeV1.class, true);
+            new org.apache.axis.description.TypeDesc(ServiceDeclaredValueOpenUMLFeV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "serviceDeclaredValueOpenUMLFeV1"));
@@ -134,24 +138,24 @@ public class ServiceDeclaredValueOpenUMLFeV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

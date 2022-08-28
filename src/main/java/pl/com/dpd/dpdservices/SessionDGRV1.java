@@ -1,13 +1,13 @@
 /**
  * SessionDGRV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class SessionDGRV1  implements java.io.Serializable {
+public class SessionDGRV1 implements java.io.Serializable {
     private pl.com.dpd.dpdservices.PackageDGRV1[] packages;
 
     private java.lang.Long sessionId;
@@ -18,18 +18,18 @@ public class SessionDGRV1  implements java.io.Serializable {
     }
 
     public SessionDGRV1(
-           pl.com.dpd.dpdservices.PackageDGRV1[] packages,
-           java.lang.Long sessionId,
-           pl.com.dpd.dpdservices.StatusInfoDGRV1 statusInfo) {
-           this.packages = packages;
-           this.sessionId = sessionId;
-           this.statusInfo = statusInfo;
+            pl.com.dpd.dpdservices.PackageDGRV1[] packages,
+            java.lang.Long sessionId,
+            pl.com.dpd.dpdservices.StatusInfoDGRV1 statusInfo) {
+        this.packages = packages;
+        this.sessionId = sessionId;
+        this.statusInfo = statusInfo;
     }
 
 
     /**
      * Gets the packages value for this SessionDGRV1.
-     * 
+     *
      * @return packages
      */
     public pl.com.dpd.dpdservices.PackageDGRV1[] getPackages() {
@@ -39,7 +39,7 @@ public class SessionDGRV1  implements java.io.Serializable {
 
     /**
      * Sets the packages value for this SessionDGRV1.
-     * 
+     *
      * @param packages
      */
     public void setPackages(pl.com.dpd.dpdservices.PackageDGRV1[] packages) {
@@ -57,7 +57,7 @@ public class SessionDGRV1  implements java.io.Serializable {
 
     /**
      * Gets the sessionId value for this SessionDGRV1.
-     * 
+     *
      * @return sessionId
      */
     public java.lang.Long getSessionId() {
@@ -67,7 +67,7 @@ public class SessionDGRV1  implements java.io.Serializable {
 
     /**
      * Sets the sessionId value for this SessionDGRV1.
-     * 
+     *
      * @param sessionId
      */
     public void setSessionId(java.lang.Long sessionId) {
@@ -77,7 +77,7 @@ public class SessionDGRV1  implements java.io.Serializable {
 
     /**
      * Gets the statusInfo value for this SessionDGRV1.
-     * 
+     *
      * @return statusInfo
      */
     public pl.com.dpd.dpdservices.StatusInfoDGRV1 getStatusInfo() {
@@ -87,7 +87,7 @@ public class SessionDGRV1  implements java.io.Serializable {
 
     /**
      * Sets the statusInfo value for this SessionDGRV1.
-     * 
+     *
      * @param statusInfo
      */
     public void setStatusInfo(pl.com.dpd.dpdservices.StatusInfoDGRV1 statusInfo) {
@@ -95,6 +95,7 @@ public class SessionDGRV1  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof SessionDGRV1)) return false;
         SessionDGRV1 other = (SessionDGRV1) obj;
@@ -105,21 +106,22 @@ public class SessionDGRV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.packages==null && other.getPackages()==null) || 
-             (this.packages!=null &&
-              java.util.Arrays.equals(this.packages, other.getPackages()))) &&
-            ((this.sessionId==null && other.getSessionId()==null) || 
-             (this.sessionId!=null &&
-              this.sessionId.equals(other.getSessionId()))) &&
-            ((this.statusInfo==null && other.getStatusInfo()==null) || 
-             (this.statusInfo!=null &&
-              this.statusInfo.equals(other.getStatusInfo())));
+        _equals = true &&
+                ((this.packages == null && other.getPackages() == null) ||
+                        (this.packages != null &&
+                                java.util.Arrays.equals(this.packages, other.getPackages()))) &&
+                ((this.sessionId == null && other.getSessionId() == null) ||
+                        (this.sessionId != null &&
+                                this.sessionId.equals(other.getSessionId()))) &&
+                ((this.statusInfo == null && other.getStatusInfo() == null) ||
+                        (this.statusInfo != null &&
+                                this.statusInfo.equals(other.getStatusInfo())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -127,12 +129,12 @@ public class SessionDGRV1  implements java.io.Serializable {
         __hashCodeCalc = true;
         int _hashCode = 1;
         if (getPackages() != null) {
-            for (int i=0;
-                 i<java.lang.reflect.Array.getLength(getPackages());
+            for (int i = 0;
+                 i < java.lang.reflect.Array.getLength(getPackages());
                  i++) {
                 java.lang.Object obj = java.lang.reflect.Array.get(getPackages(), i);
                 if (obj != null &&
-                    !obj.getClass().isArray()) {
+                        !obj.getClass().isArray()) {
                     _hashCode += obj.hashCode();
                 }
             }
@@ -149,7 +151,7 @@ public class SessionDGRV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(SessionDGRV1.class, true);
+            new org.apache.axis.description.TypeDesc(SessionDGRV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "sessionDGRV1"));
@@ -188,24 +190,24 @@ public class SessionDGRV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

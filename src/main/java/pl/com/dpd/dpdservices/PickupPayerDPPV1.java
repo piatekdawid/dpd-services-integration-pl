@@ -1,13 +1,13 @@
 /**
  * PickupPayerDPPV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class PickupPayerDPPV1  implements java.io.Serializable {
+public class PickupPayerDPPV1 implements java.io.Serializable {
     private java.lang.String payerCostCenter;
 
     private java.lang.String payerName;
@@ -18,18 +18,18 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
     }
 
     public PickupPayerDPPV1(
-           java.lang.String payerCostCenter,
-           java.lang.String payerName,
-           java.lang.Integer payerNumber) {
-           this.payerCostCenter = payerCostCenter;
-           this.payerName = payerName;
-           this.payerNumber = payerNumber;
+            java.lang.String payerCostCenter,
+            java.lang.String payerName,
+            java.lang.Integer payerNumber) {
+        this.payerCostCenter = payerCostCenter;
+        this.payerName = payerName;
+        this.payerNumber = payerNumber;
     }
 
 
     /**
      * Gets the payerCostCenter value for this PickupPayerDPPV1.
-     * 
+     *
      * @return payerCostCenter
      */
     public java.lang.String getPayerCostCenter() {
@@ -39,7 +39,7 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the payerCostCenter value for this PickupPayerDPPV1.
-     * 
+     *
      * @param payerCostCenter
      */
     public void setPayerCostCenter(java.lang.String payerCostCenter) {
@@ -49,7 +49,7 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the payerName value for this PickupPayerDPPV1.
-     * 
+     *
      * @return payerName
      */
     public java.lang.String getPayerName() {
@@ -59,7 +59,7 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the payerName value for this PickupPayerDPPV1.
-     * 
+     *
      * @param payerName
      */
     public void setPayerName(java.lang.String payerName) {
@@ -69,7 +69,7 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the payerNumber value for this PickupPayerDPPV1.
-     * 
+     *
      * @return payerNumber
      */
     public java.lang.Integer getPayerNumber() {
@@ -79,7 +79,7 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the payerNumber value for this PickupPayerDPPV1.
-     * 
+     *
      * @param payerNumber
      */
     public void setPayerNumber(java.lang.Integer payerNumber) {
@@ -87,6 +87,7 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof PickupPayerDPPV1)) return false;
         PickupPayerDPPV1 other = (PickupPayerDPPV1) obj;
@@ -97,21 +98,22 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.payerCostCenter==null && other.getPayerCostCenter()==null) || 
-             (this.payerCostCenter!=null &&
-              this.payerCostCenter.equals(other.getPayerCostCenter()))) &&
-            ((this.payerName==null && other.getPayerName()==null) || 
-             (this.payerName!=null &&
-              this.payerName.equals(other.getPayerName()))) &&
-            ((this.payerNumber==null && other.getPayerNumber()==null) || 
-             (this.payerNumber!=null &&
-              this.payerNumber.equals(other.getPayerNumber())));
+        _equals = true &&
+                ((this.payerCostCenter == null && other.getPayerCostCenter() == null) ||
+                        (this.payerCostCenter != null &&
+                                this.payerCostCenter.equals(other.getPayerCostCenter()))) &&
+                ((this.payerName == null && other.getPayerName() == null) ||
+                        (this.payerName != null &&
+                                this.payerName.equals(other.getPayerName()))) &&
+                ((this.payerNumber == null && other.getPayerNumber() == null) ||
+                        (this.payerNumber != null &&
+                                this.payerNumber.equals(other.getPayerNumber())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -133,7 +135,7 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(PickupPayerDPPV1.class, true);
+            new org.apache.axis.description.TypeDesc(PickupPayerDPPV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "pickupPayerDPPV1"));
@@ -171,24 +173,24 @@ public class PickupPayerDPPV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

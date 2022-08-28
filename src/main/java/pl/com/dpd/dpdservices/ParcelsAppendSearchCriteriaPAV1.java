@@ -1,13 +1,13 @@
 /**
  * ParcelsAppendSearchCriteriaPAV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
+public class ParcelsAppendSearchCriteriaPAV1 implements java.io.Serializable {
     private long packageId;
 
     private java.lang.String reference;
@@ -18,18 +18,18 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
     }
 
     public ParcelsAppendSearchCriteriaPAV1(
-           long packageId,
-           java.lang.String reference,
-           java.lang.String waybill) {
-           this.packageId = packageId;
-           this.reference = reference;
-           this.waybill = waybill;
+            long packageId,
+            java.lang.String reference,
+            java.lang.String waybill) {
+        this.packageId = packageId;
+        this.reference = reference;
+        this.waybill = waybill;
     }
 
 
     /**
      * Gets the packageId value for this ParcelsAppendSearchCriteriaPAV1.
-     * 
+     *
      * @return packageId
      */
     public long getPackageId() {
@@ -39,7 +39,7 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
 
     /**
      * Sets the packageId value for this ParcelsAppendSearchCriteriaPAV1.
-     * 
+     *
      * @param packageId
      */
     public void setPackageId(long packageId) {
@@ -49,7 +49,7 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
 
     /**
      * Gets the reference value for this ParcelsAppendSearchCriteriaPAV1.
-     * 
+     *
      * @return reference
      */
     public java.lang.String getReference() {
@@ -59,7 +59,7 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
 
     /**
      * Sets the reference value for this ParcelsAppendSearchCriteriaPAV1.
-     * 
+     *
      * @param reference
      */
     public void setReference(java.lang.String reference) {
@@ -69,7 +69,7 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
 
     /**
      * Gets the waybill value for this ParcelsAppendSearchCriteriaPAV1.
-     * 
+     *
      * @return waybill
      */
     public java.lang.String getWaybill() {
@@ -79,7 +79,7 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
 
     /**
      * Sets the waybill value for this ParcelsAppendSearchCriteriaPAV1.
-     * 
+     *
      * @param waybill
      */
     public void setWaybill(java.lang.String waybill) {
@@ -87,6 +87,7 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof ParcelsAppendSearchCriteriaPAV1)) return false;
         ParcelsAppendSearchCriteriaPAV1 other = (ParcelsAppendSearchCriteriaPAV1) obj;
@@ -97,19 +98,20 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            this.packageId == other.getPackageId() &&
-            ((this.reference==null && other.getReference()==null) || 
-             (this.reference!=null &&
-              this.reference.equals(other.getReference()))) &&
-            ((this.waybill==null && other.getWaybill()==null) || 
-             (this.waybill!=null &&
-              this.waybill.equals(other.getWaybill())));
+        _equals = true &&
+                this.packageId == other.getPackageId() &&
+                ((this.reference == null && other.getReference() == null) ||
+                        (this.reference != null &&
+                                this.reference.equals(other.getReference()))) &&
+                ((this.waybill == null && other.getWaybill() == null) ||
+                        (this.waybill != null &&
+                                this.waybill.equals(other.getWaybill())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -129,7 +131,7 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(ParcelsAppendSearchCriteriaPAV1.class, true);
+            new org.apache.axis.description.TypeDesc(ParcelsAppendSearchCriteriaPAV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "parcelsAppendSearchCriteriaPAV1"));
@@ -166,24 +168,24 @@ public class ParcelsAppendSearchCriteriaPAV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }

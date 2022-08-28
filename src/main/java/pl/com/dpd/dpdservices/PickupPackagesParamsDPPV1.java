@@ -1,13 +1,13 @@
 /**
  * PickupPackagesParamsDPPV1.java
- *
+ * <p>
  * This file was auto-generated from WSDL
  * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
  */
 
 package pl.com.dpd.dpdservices;
 
-public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
+public class PickupPackagesParamsDPPV1 implements java.io.Serializable {
     private java.lang.Boolean dox;
 
     private java.lang.Integer doxCount;
@@ -40,40 +40,40 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
     }
 
     public PickupPackagesParamsDPPV1(
-           java.lang.Boolean dox,
-           java.lang.Integer doxCount,
-           java.lang.Boolean pallet,
-           java.lang.Double palletMaxHeight,
-           java.lang.Double palletMaxWeight,
-           java.lang.Integer palletsCount,
-           java.lang.Double palletsWeight,
-           java.lang.Double parcelMaxDepth,
-           java.lang.Double parcelMaxHeight,
-           java.lang.Double parcelMaxWeight,
-           java.lang.Double parcelMaxWidth,
-           java.lang.Integer parcelsCount,
-           java.lang.Double parcelsWeight,
-           java.lang.Boolean standardParcel) {
-           this.dox = dox;
-           this.doxCount = doxCount;
-           this.pallet = pallet;
-           this.palletMaxHeight = palletMaxHeight;
-           this.palletMaxWeight = palletMaxWeight;
-           this.palletsCount = palletsCount;
-           this.palletsWeight = palletsWeight;
-           this.parcelMaxDepth = parcelMaxDepth;
-           this.parcelMaxHeight = parcelMaxHeight;
-           this.parcelMaxWeight = parcelMaxWeight;
-           this.parcelMaxWidth = parcelMaxWidth;
-           this.parcelsCount = parcelsCount;
-           this.parcelsWeight = parcelsWeight;
-           this.standardParcel = standardParcel;
+            java.lang.Boolean dox,
+            java.lang.Integer doxCount,
+            java.lang.Boolean pallet,
+            java.lang.Double palletMaxHeight,
+            java.lang.Double palletMaxWeight,
+            java.lang.Integer palletsCount,
+            java.lang.Double palletsWeight,
+            java.lang.Double parcelMaxDepth,
+            java.lang.Double parcelMaxHeight,
+            java.lang.Double parcelMaxWeight,
+            java.lang.Double parcelMaxWidth,
+            java.lang.Integer parcelsCount,
+            java.lang.Double parcelsWeight,
+            java.lang.Boolean standardParcel) {
+        this.dox = dox;
+        this.doxCount = doxCount;
+        this.pallet = pallet;
+        this.palletMaxHeight = palletMaxHeight;
+        this.palletMaxWeight = palletMaxWeight;
+        this.palletsCount = palletsCount;
+        this.palletsWeight = palletsWeight;
+        this.parcelMaxDepth = parcelMaxDepth;
+        this.parcelMaxHeight = parcelMaxHeight;
+        this.parcelMaxWeight = parcelMaxWeight;
+        this.parcelMaxWidth = parcelMaxWidth;
+        this.parcelsCount = parcelsCount;
+        this.parcelsWeight = parcelsWeight;
+        this.standardParcel = standardParcel;
     }
 
 
     /**
      * Gets the dox value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return dox
      */
     public java.lang.Boolean getDox() {
@@ -83,7 +83,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the dox value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param dox
      */
     public void setDox(java.lang.Boolean dox) {
@@ -93,7 +93,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the doxCount value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return doxCount
      */
     public java.lang.Integer getDoxCount() {
@@ -103,7 +103,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the doxCount value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param doxCount
      */
     public void setDoxCount(java.lang.Integer doxCount) {
@@ -113,7 +113,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the pallet value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return pallet
      */
     public java.lang.Boolean getPallet() {
@@ -123,7 +123,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the pallet value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param pallet
      */
     public void setPallet(java.lang.Boolean pallet) {
@@ -133,7 +133,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the palletMaxHeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return palletMaxHeight
      */
     public java.lang.Double getPalletMaxHeight() {
@@ -143,7 +143,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the palletMaxHeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param palletMaxHeight
      */
     public void setPalletMaxHeight(java.lang.Double palletMaxHeight) {
@@ -153,7 +153,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the palletMaxWeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return palletMaxWeight
      */
     public java.lang.Double getPalletMaxWeight() {
@@ -163,7 +163,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the palletMaxWeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param palletMaxWeight
      */
     public void setPalletMaxWeight(java.lang.Double palletMaxWeight) {
@@ -173,7 +173,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the palletsCount value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return palletsCount
      */
     public java.lang.Integer getPalletsCount() {
@@ -183,7 +183,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the palletsCount value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param palletsCount
      */
     public void setPalletsCount(java.lang.Integer palletsCount) {
@@ -193,7 +193,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the palletsWeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return palletsWeight
      */
     public java.lang.Double getPalletsWeight() {
@@ -203,7 +203,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the palletsWeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param palletsWeight
      */
     public void setPalletsWeight(java.lang.Double palletsWeight) {
@@ -213,7 +213,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the parcelMaxDepth value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return parcelMaxDepth
      */
     public java.lang.Double getParcelMaxDepth() {
@@ -223,7 +223,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the parcelMaxDepth value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param parcelMaxDepth
      */
     public void setParcelMaxDepth(java.lang.Double parcelMaxDepth) {
@@ -233,7 +233,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the parcelMaxHeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return parcelMaxHeight
      */
     public java.lang.Double getParcelMaxHeight() {
@@ -243,7 +243,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the parcelMaxHeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param parcelMaxHeight
      */
     public void setParcelMaxHeight(java.lang.Double parcelMaxHeight) {
@@ -253,7 +253,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the parcelMaxWeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return parcelMaxWeight
      */
     public java.lang.Double getParcelMaxWeight() {
@@ -263,7 +263,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the parcelMaxWeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param parcelMaxWeight
      */
     public void setParcelMaxWeight(java.lang.Double parcelMaxWeight) {
@@ -273,7 +273,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the parcelMaxWidth value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return parcelMaxWidth
      */
     public java.lang.Double getParcelMaxWidth() {
@@ -283,7 +283,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the parcelMaxWidth value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param parcelMaxWidth
      */
     public void setParcelMaxWidth(java.lang.Double parcelMaxWidth) {
@@ -293,7 +293,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the parcelsCount value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return parcelsCount
      */
     public java.lang.Integer getParcelsCount() {
@@ -303,7 +303,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the parcelsCount value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param parcelsCount
      */
     public void setParcelsCount(java.lang.Integer parcelsCount) {
@@ -313,7 +313,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the parcelsWeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return parcelsWeight
      */
     public java.lang.Double getParcelsWeight() {
@@ -323,7 +323,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the parcelsWeight value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param parcelsWeight
      */
     public void setParcelsWeight(java.lang.Double parcelsWeight) {
@@ -333,7 +333,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Gets the standardParcel value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @return standardParcel
      */
     public java.lang.Boolean getStandardParcel() {
@@ -343,7 +343,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     /**
      * Sets the standardParcel value for this PickupPackagesParamsDPPV1.
-     * 
+     *
      * @param standardParcel
      */
     public void setStandardParcel(java.lang.Boolean standardParcel) {
@@ -351,6 +351,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
     }
 
     private java.lang.Object __equalsCalc = null;
+
     public synchronized boolean equals(java.lang.Object obj) {
         if (!(obj instanceof PickupPackagesParamsDPPV1)) return false;
         PickupPackagesParamsDPPV1 other = (PickupPackagesParamsDPPV1) obj;
@@ -361,54 +362,55 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
         }
         __equalsCalc = obj;
         boolean _equals;
-        _equals = true && 
-            ((this.dox==null && other.getDox()==null) || 
-             (this.dox!=null &&
-              this.dox.equals(other.getDox()))) &&
-            ((this.doxCount==null && other.getDoxCount()==null) || 
-             (this.doxCount!=null &&
-              this.doxCount.equals(other.getDoxCount()))) &&
-            ((this.pallet==null && other.getPallet()==null) || 
-             (this.pallet!=null &&
-              this.pallet.equals(other.getPallet()))) &&
-            ((this.palletMaxHeight==null && other.getPalletMaxHeight()==null) || 
-             (this.palletMaxHeight!=null &&
-              this.palletMaxHeight.equals(other.getPalletMaxHeight()))) &&
-            ((this.palletMaxWeight==null && other.getPalletMaxWeight()==null) || 
-             (this.palletMaxWeight!=null &&
-              this.palletMaxWeight.equals(other.getPalletMaxWeight()))) &&
-            ((this.palletsCount==null && other.getPalletsCount()==null) || 
-             (this.palletsCount!=null &&
-              this.palletsCount.equals(other.getPalletsCount()))) &&
-            ((this.palletsWeight==null && other.getPalletsWeight()==null) || 
-             (this.palletsWeight!=null &&
-              this.palletsWeight.equals(other.getPalletsWeight()))) &&
-            ((this.parcelMaxDepth==null && other.getParcelMaxDepth()==null) || 
-             (this.parcelMaxDepth!=null &&
-              this.parcelMaxDepth.equals(other.getParcelMaxDepth()))) &&
-            ((this.parcelMaxHeight==null && other.getParcelMaxHeight()==null) || 
-             (this.parcelMaxHeight!=null &&
-              this.parcelMaxHeight.equals(other.getParcelMaxHeight()))) &&
-            ((this.parcelMaxWeight==null && other.getParcelMaxWeight()==null) || 
-             (this.parcelMaxWeight!=null &&
-              this.parcelMaxWeight.equals(other.getParcelMaxWeight()))) &&
-            ((this.parcelMaxWidth==null && other.getParcelMaxWidth()==null) || 
-             (this.parcelMaxWidth!=null &&
-              this.parcelMaxWidth.equals(other.getParcelMaxWidth()))) &&
-            ((this.parcelsCount==null && other.getParcelsCount()==null) || 
-             (this.parcelsCount!=null &&
-              this.parcelsCount.equals(other.getParcelsCount()))) &&
-            ((this.parcelsWeight==null && other.getParcelsWeight()==null) || 
-             (this.parcelsWeight!=null &&
-              this.parcelsWeight.equals(other.getParcelsWeight()))) &&
-            ((this.standardParcel==null && other.getStandardParcel()==null) || 
-             (this.standardParcel!=null &&
-              this.standardParcel.equals(other.getStandardParcel())));
+        _equals = true &&
+                ((this.dox == null && other.getDox() == null) ||
+                        (this.dox != null &&
+                                this.dox.equals(other.getDox()))) &&
+                ((this.doxCount == null && other.getDoxCount() == null) ||
+                        (this.doxCount != null &&
+                                this.doxCount.equals(other.getDoxCount()))) &&
+                ((this.pallet == null && other.getPallet() == null) ||
+                        (this.pallet != null &&
+                                this.pallet.equals(other.getPallet()))) &&
+                ((this.palletMaxHeight == null && other.getPalletMaxHeight() == null) ||
+                        (this.palletMaxHeight != null &&
+                                this.palletMaxHeight.equals(other.getPalletMaxHeight()))) &&
+                ((this.palletMaxWeight == null && other.getPalletMaxWeight() == null) ||
+                        (this.palletMaxWeight != null &&
+                                this.palletMaxWeight.equals(other.getPalletMaxWeight()))) &&
+                ((this.palletsCount == null && other.getPalletsCount() == null) ||
+                        (this.palletsCount != null &&
+                                this.palletsCount.equals(other.getPalletsCount()))) &&
+                ((this.palletsWeight == null && other.getPalletsWeight() == null) ||
+                        (this.palletsWeight != null &&
+                                this.palletsWeight.equals(other.getPalletsWeight()))) &&
+                ((this.parcelMaxDepth == null && other.getParcelMaxDepth() == null) ||
+                        (this.parcelMaxDepth != null &&
+                                this.parcelMaxDepth.equals(other.getParcelMaxDepth()))) &&
+                ((this.parcelMaxHeight == null && other.getParcelMaxHeight() == null) ||
+                        (this.parcelMaxHeight != null &&
+                                this.parcelMaxHeight.equals(other.getParcelMaxHeight()))) &&
+                ((this.parcelMaxWeight == null && other.getParcelMaxWeight() == null) ||
+                        (this.parcelMaxWeight != null &&
+                                this.parcelMaxWeight.equals(other.getParcelMaxWeight()))) &&
+                ((this.parcelMaxWidth == null && other.getParcelMaxWidth() == null) ||
+                        (this.parcelMaxWidth != null &&
+                                this.parcelMaxWidth.equals(other.getParcelMaxWidth()))) &&
+                ((this.parcelsCount == null && other.getParcelsCount() == null) ||
+                        (this.parcelsCount != null &&
+                                this.parcelsCount.equals(other.getParcelsCount()))) &&
+                ((this.parcelsWeight == null && other.getParcelsWeight() == null) ||
+                        (this.parcelsWeight != null &&
+                                this.parcelsWeight.equals(other.getParcelsWeight()))) &&
+                ((this.standardParcel == null && other.getStandardParcel() == null) ||
+                        (this.standardParcel != null &&
+                                this.standardParcel.equals(other.getStandardParcel())));
         __equalsCalc = null;
         return _equals;
     }
 
     private boolean __hashCodeCalc = false;
+
     public synchronized int hashCode() {
         if (__hashCodeCalc) {
             return 0;
@@ -463,7 +465,7 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
 
     // Type metadata
     private static org.apache.axis.description.TypeDesc typeDesc =
-        new org.apache.axis.description.TypeDesc(PickupPackagesParamsDPPV1.class, true);
+            new org.apache.axis.description.TypeDesc(PickupPackagesParamsDPPV1.class, true);
 
     static {
         typeDesc.setXmlType(new javax.xml.namespace.QName("http://dpdservices.dpd.com.pl/", "pickupPackagesParamsDPPV1"));
@@ -578,24 +580,24 @@ public class PickupPackagesParamsDPPV1  implements java.io.Serializable {
      * Get Custom Serializer
      */
     public static org.apache.axis.encoding.Serializer getSerializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanSerializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanSerializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
     /**
      * Get Custom Deserializer
      */
     public static org.apache.axis.encoding.Deserializer getDeserializer(
-           java.lang.String mechType, 
-           java.lang.Class _javaType,  
-           javax.xml.namespace.QName _xmlType) {
-        return 
-          new  org.apache.axis.encoding.ser.BeanDeserializer(
-            _javaType, _xmlType, typeDesc);
+            java.lang.String mechType,
+            java.lang.Class _javaType,
+            javax.xml.namespace.QName _xmlType) {
+        return
+                new org.apache.axis.encoding.ser.BeanDeserializer(
+                        _javaType, _xmlType, typeDesc);
     }
 
 }
